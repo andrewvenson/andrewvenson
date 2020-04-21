@@ -9,6 +9,7 @@ const NameLogo = () => {
     navLinkStyle = {
       borderBottom: "2px solid purple",
       color: "rgb(121, 100, 121)",
+      fontWeight: "bolder",
     };
   }
   return (

@@ -8,7 +8,8 @@ body {
 }
 
 .navLink {
-  color: rgb(168, 145, 168) !important;
+  color: rgb(168, 145, 168);
+  font-size: 18px;
 }
 
 .navLink:hover {
