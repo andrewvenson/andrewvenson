@@ -22,20 +22,17 @@ const NavComponent = () => {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
                 <NavLinks name="About" classN="about" linkey="/about" />
-
                 <NavLinks name="Contact" classN="contact" linkey="/contact" />
-
-                {/* <Nav.Link className="navLink contact" href="/contact">
-                  Contact
-                </Nav.Link> */}
               </Nav>
               <Form inline>
                 <FormControl
                   type="text"
-                  placeholder="Search"
+                  placeholder="Email"
                   className="mr-sm-2"
                 />
-                <Button variant="outline-success">Search</Button>
+                <Button className="emailSend" variant="outline-success">
+                  Send
+                </Button>
               </Form>
             </Navbar.Collapse>
           </Container>
