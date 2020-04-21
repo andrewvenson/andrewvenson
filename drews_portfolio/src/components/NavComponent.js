@@ -19,6 +19,7 @@ const NavComponent = () => {
           <Container>
             <NameLogo />
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <div style={{ fontSize: "35px", fontWeight: "lighter" }}>|</div>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
                 <NavLinks name="About" classN="about" linkey="/about" />
