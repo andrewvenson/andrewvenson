@@ -1,5 +1,6 @@
 import React from "react";
 import NameLogo from "./NameLogo";
+import NavLinks from "./NavLinks";
 
 import {
   Navbar,
@@ -20,12 +21,13 @@ const NavComponent = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link className="navLink about" href="/about">
-                  About
-                </Nav.Link>
-                <Nav.Link className="navLink contact" href="/contact">
+                <NavLinks name="About" classN="about" linkey="/about" />
+
+                <NavLinks name="Contact" classN="contact" linkey="/contact" />
+
+                {/* <Nav.Link className="navLink contact" href="/contact">
                   Contact
-                </Nav.Link>
+                </Nav.Link> */}
               </Nav>
               <Form inline>
                 <FormControl
