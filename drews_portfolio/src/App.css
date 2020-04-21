@@ -1,3 +1,28 @@
 .App {
   text-align: center;
 }
+
+.navLink {
+  color: rgb(168, 145, 168) !important;
+}
+
+.navLink:hover {
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #000;
+  font-weight: bold;
+  color: rgb(121, 100, 121) !important;
+}
+
+* {
+  font-family: calibri;
+}
+
+.myName:hover {
+  border-bottom: 2px solid #000;
+  color: rgb(121, 100, 121) !important;
+}
+
+.myName {
+  font-weight: bolder;
+}
