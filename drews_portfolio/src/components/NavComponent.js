@@ -27,6 +27,7 @@ const NavComponent = () => {
             </div>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
+                <NavLinks name="Portfolio" classN="portfolio" linkey="#" />
                 <NavLinks name="About" classN="about" linkey="/about" />
                 <NavLinks name="Contact" classN="contact" linkey="/contact" />
               </Nav>
