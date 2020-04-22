@@ -35,7 +35,7 @@ const Home = () => {
                   {" "}
                   <img
                     src={LeftArrow}
-                    style={{ width: "10px", height: "10px" }}
+                    style={{ width: "15px", height: "15px" }}
                   />
                 </span>
               </span>
@@ -47,7 +47,7 @@ const Home = () => {
                   {" "}
                   <img
                     src={RightArrow}
-                    style={{ width: "10px", height: "10px" }}
+                    style={{ width: "15px", height: "15px" }}
                   />
                 </span>
               </span>
@@ -72,14 +72,15 @@ const Home = () => {
               </span>
               <span>
                 {" "}
-                Oh and click Home{" "}
+                Oh and
+                <span style={direction}> click the HOME</span>{" "}
                 <span>
                   <img
                     src={homeRun}
                     style={{ width: "30px", height: "30px" }}
                   />
                 </span>{" "}
-                in the right corner to get back here!
+                in the bottom right corner to get back here!
               </span>
             </p>
           </div>
