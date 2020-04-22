@@ -47,7 +47,7 @@ const Home = () => {
               </span>
               <span style={{ fontWeight: "bolder" }}>
                 {" "}
-                Click my face to get back here.
+                Finally you can click my face to get back here.
               </span>
             </p>
           </div>
