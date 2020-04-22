@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import profilePic from "../images/profilePic.png";
-import Draggable from "react-draggable";
 const Home = () => {
   const portfolioPicContainer = {
     display: "flex",
@@ -46,6 +45,12 @@ const Home = () => {
   const left = "<";
   const right = ">";
   const down = "v";
+
+  const eventLogger = (e: MouseEvent, data: Object) => {
+    console.log("Event: ", e);
+    console.log("Data: ", data);
+  };
+
   return (
     <div>
       <Container>

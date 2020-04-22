@@ -21,7 +21,11 @@ const NavComponent = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <div
               className="divider"
-              style={{ fontSize: "35px", fontWeight: "lighter" }}
+              style={{
+                fontSize: "35px",
+                fontWeight: "lighter",
+                color: "purple",
+              }}
             >
               |
             </div>
