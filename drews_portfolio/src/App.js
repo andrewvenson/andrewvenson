@@ -4,6 +4,7 @@ import NavComponent from "./components/NavComponent";
 import About from "./Pages/About";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
+import "./images/profilePic.png";
 import {
   BrowserRouter as Router,
   Switch,

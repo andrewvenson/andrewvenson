@@ -44,3 +44,11 @@ body {
   border-color: rgb(121, 100, 121);
   color: white;
 }
+
+.portfolioPic:hover {
+  box-shadow: 3px 5px 16px black !important;
+}
+
+/* .portfolioPic {
+  background: url("../images/profilePic.png");
+} */
