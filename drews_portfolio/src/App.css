@@ -58,6 +58,18 @@ body {
   font-size: 25px !important;
 } */
 
+.directional:hover {
+  font-weight: bolder !important;
+  border: 1px solid lightgray;
+  background-color: rgb(236, 236, 236);
+  padding: 5px;
+  border-radius: 50%;
+  width: 40px;
+  box-shadow: 2px 4px 5px lightgray;
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 991px) {
   .divider {
     display: none !important;

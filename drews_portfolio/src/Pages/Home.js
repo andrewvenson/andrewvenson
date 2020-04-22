@@ -28,7 +28,7 @@ const Home = () => {
   };
 
   const anywhere = () => {
-    window.location.href = "/about";
+    window.location.href = "/";
   };
 
   const onHover = {
@@ -39,17 +39,17 @@ const Home = () => {
     fontWeight: "lighter",
     color: "purple",
     margin: "10px",
-    // display: "none",
+    fontSize: "20px",
+  };
+
+  const direction = {
+    color: "purple",
+    fontWeight: "lighter",
   };
 
   const left = "<";
   const right = ">";
   const down = "v";
-
-  const eventLogger = (e: MouseEvent, data: Object) => {
-    console.log("Event: ", e);
-    console.log("Data: ", data);
-  };
 
   return (
     <div>
@@ -73,21 +73,34 @@ const Home = () => {
             justifyContent: "center",
             fontWeight: "lighter",
             color: "purple",
-            // display: "none",
+            fontSize: "20px",
+            marginTop: "10px",
           }}
         >
-          {down}
+          <span className="directional">{down}</span>
         </div>
         <div className="infoBoxContainer">
           <div className="infoBox" style={infoBox}>
             <p>
-              Yup, that big goofy head up there is me page is me.
-              <span style={directions}> Drag that head to the LEFT</span> to
-              view my projects.
-              <span style={directions}>Drag me to the RIGHT</span>
+              Yup, that big goofy head up there is me.
+              <span style={direction}>
+                {" "}
+                Click the LEFT
+                <span style={{ fontWeight: "bolder" }}> {left} </span>
+              </span>
+              to view my projects.
+              <span style={direction}>
+                {" "}
+                Click the RIGHT
+                <span style={{ fontWeight: "bolder" }}> {right} </span>
+              </span>
               to get a little information about me. If you would like to contact
               me just
-              <span style={directions}>drag me DOWN.</span>
+              <span style={direction}>
+                {" "}
+                click the DOWN
+                <span style={{ fontWeight: "bolder" }}> {down}</span>.
+              </span>
             </p>
           </div>
         </div>
