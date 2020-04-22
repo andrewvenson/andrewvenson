@@ -7,7 +7,11 @@ const HomeRun = () => {
       <img
         className="home"
         src={homeRun}
-        style={{ width: "50px", height: "50px" }}
+        style={{
+          width: "50px",
+          height: "50px",
+          filter: "drop-shadow(12px 12px 25px rgba(0,0,0,0.5))",
+        }}
       />
     </a>
   );
