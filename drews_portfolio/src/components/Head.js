@@ -6,13 +6,23 @@ import RightArrow from "../images/right-arrow.png";
 import LeftArrow from "../images/left-arrow.png";
 
 const Head = () => {
-  const portfolioPicContainer = {
+  let portfolioPicContainer = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
     marginTop: "50px",
   };
-  const portfolioPic = {
+
+  let downArrow = {
+    display: "flex",
+    justifyContent: "center",
+    fontWeight: "lighter",
+    color: "purple",
+    fontSize: "20px",
+    marginTop: "10px",
+  };
+
+  let portfolioPic = {
     borderRadius: "50%",
     height: "250px",
     width: "250px",
@@ -22,6 +32,88 @@ const Head = () => {
     background: `url(${profilePic})`,
     backgroundSize: "cover",
   };
+
+  if (window.location.pathname == "/portfolio") {
+    portfolioPicContainer = {
+      display: "flex",
+      justifyContent: "flex-start",
+      alignItems: "center",
+      marginTop: "50px",
+    };
+    downArrow = {
+      display: "flex",
+      justifyContent: "flex-start",
+      fontWeight: "lighter",
+      color: "purple",
+      fontSize: "20px",
+      marginTop: "10px",
+      alignItems: "center",
+    };
+    portfolioPic = {
+      borderRadius: "50%",
+      height: "100px",
+      width: "100px",
+      border: "1px solid lightgray",
+      backgroundColor: "lightgray",
+      boxShadow: "3px 5px 8px gray",
+      background: `url(${profilePic})`,
+      backgroundSize: "cover",
+    };
+  } else if (window.location.pathname == "/about") {
+    portfolioPicContainer = {
+      display: "flex",
+      justifyContent: "flex-end",
+      alignItems: "center",
+      marginTop: "50px",
+    };
+    downArrow = {
+      display: "flex",
+      justifyContent: "flex-end",
+      fontWeight: "lighter",
+      color: "purple",
+      fontSize: "20px",
+      marginTop: "10px",
+      alignItems: "center",
+    };
+    portfolioPic = {
+      borderRadius: "50%",
+      height: "100px",
+      width: "100px",
+      border: "1px solid lightgray",
+      backgroundColor: "lightgray",
+      boxShadow: "3px 5px 8px gray",
+      background: `url(${profilePic})`,
+      backgroundSize: "cover",
+    };
+  } else if (window.location.pathname == "/contact") {
+    portfolioPicContainer = {
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "flex-end",
+      alignItems: "center",
+      marginTop: "50px",
+    };
+    downArrow = {
+      display: "flex",
+      justifyContent: "flex-end",
+      fontWeight: "lighter",
+      color: "purple",
+      fontSize: "20px",
+      marginTop: "10px",
+      alignItems: "center",
+    };
+    portfolioPic = {
+      borderRadius: "50%",
+      height: "100px",
+      width: "100px",
+      border: "1px solid lightgray",
+      backgroundColor: "lightgray",
+      boxShadow: "3px 5px 8px gray",
+      background: `url(${profilePic})`,
+      backgroundSize: "cover",
+    };
+  }
+
   const anywhere = () => {
     window.location.href = "/";
   };
@@ -37,14 +129,10 @@ const Head = () => {
     fontSize: "20px",
   };
 
-  const left = "<";
-  const right = ">";
-  const down = "v";
-
   return (
     <Container>
       <div style={portfolioPicContainer}>
-        <span className="directional" style={directions}>
+        <span className="directional portfolio" style={directions}>
           <a href="/portfolio">
             {" "}
             <img src={LeftArrow} style={{ width: "20px", height: "20px" }} />
@@ -62,16 +150,7 @@ const Head = () => {
           </a>
         </span>
       </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          fontWeight: "lighter",
-          color: "purple",
-          fontSize: "20px",
-          marginTop: "10px",
-        }}
-      >
+      <div style={downArrow}>
         <span className="directional">
           <a href="/contact">
             <img src={DownArrow} style={{ width: "20px", height: "20px" }} />

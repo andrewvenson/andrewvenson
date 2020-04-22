@@ -7,6 +7,7 @@ const Portfolio = () => {
     <div>
       <Container>
         <h1>Portfolio</h1>
+        <Head />
       </Container>
     </div>
   );

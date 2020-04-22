@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import profilePic from "../images/profilePic.png";
 import Head from "../components/Head";
 import DownArrow from "../images/down-arrow.png";
 import RightArrow from "../images/right-arrow.png";
@@ -66,7 +67,18 @@ const Home = () => {
               </span>
               <span style={{ fontWeight: "bolder" }}>
                 {" "}
-                Finally you can click my face to get back here.
+                You can always click my face{" "}
+                <span>
+                  <img
+                    src={profilePic}
+                    style={{
+                      width: "35px",
+                      height: "35px",
+                      borderRadius: "50%",
+                    }}
+                  />
+                </span>{" "}
+                to get back here.
               </span>
             </p>
           </div>
