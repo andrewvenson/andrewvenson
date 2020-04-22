@@ -105,7 +105,7 @@ const Home = () => {
               </span>
               <span style={{ fontWeight: "bolder" }}>
                 {" "}
-                Click the infamous head to get back here.
+                Click my face to get back here.
               </span>
             </p>
           </div>
