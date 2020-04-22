@@ -89,6 +89,11 @@ body {
   .emailForm {
     display: none !important;
   }
+
+  .portfolioPic {
+    width: 110px !important;
+    height: 110px !important;
+  }
 }
 
 .infoBox {
