@@ -37,7 +37,7 @@ const Head = () => {
       display: "flex",
       justifyContent: "flex-start",
       alignItems: "center",
-      marginTop: "50px",
+      marginTop: "10px",
     };
     portfolioPic = {
       borderRadius: "50%",
@@ -54,7 +54,7 @@ const Head = () => {
       display: "flex",
       justifyContent: "flex-end",
       alignItems: "center",
-      marginTop: "50px",
+      marginTop: "10px",
     };
     portfolioPic = {
       borderRadius: "50%",
