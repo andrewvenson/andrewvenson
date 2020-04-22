@@ -90,3 +90,10 @@ body {
   background-color: whitesmoke;
   box-shadow: 3px 5px 8px lightgray;
 }
+
+.directional a {
+  text-decoration: none !important;
+  color: purple;
+  display: block;
+  height: 100% !important;
+}

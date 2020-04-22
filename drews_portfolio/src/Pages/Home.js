@@ -56,7 +56,7 @@ const Home = () => {
       <Container>
         <div style={portfolioPicContainer}>
           <span className="directional" style={directions}>
-            {left}
+            <a href="/portfolio">{left}</a>
           </span>
           <div
             onClick={anywhere}
@@ -64,7 +64,7 @@ const Home = () => {
             style={portfolioPic}
           ></div>
           <span className="directional" style={directions}>
-            {right}
+            <a href="/about">{right}</a>
           </span>
         </div>
         <div
@@ -77,7 +77,9 @@ const Home = () => {
             marginTop: "10px",
           }}
         >
-          <span className="directional">{down}</span>
+          <span className="directional">
+            <a href="/contact">{down}</a>
+          </span>
         </div>
         <div className="infoBoxContainer">
           <div className="infoBox" style={infoBox}>
@@ -100,6 +102,10 @@ const Home = () => {
                 {" "}
                 click the DOWN
                 <span style={{ fontWeight: "bolder" }}> {down}</span>.
+              </span>
+              <span style={{ fontWeight: "bolder" }}>
+                {" "}
+                Click the infamous head to get back here.
               </span>
             </p>
           </div>
