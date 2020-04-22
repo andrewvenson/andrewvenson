@@ -1,6 +1,9 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import profilePic from "../images/profilePic.png";
+import DownArrow from "../images/down-arrow.png";
+import RightArrow from "../images/right-arrow.png";
+import LeftArrow from "../images/left-arrow.png";
 
 const Head = () => {
   const portfolioPicContainer = {
@@ -42,7 +45,10 @@ const Head = () => {
     <Container>
       <div style={portfolioPicContainer}>
         <span className="directional" style={directions}>
-          <a href="/portfolio">{left}</a>
+          <a href="/portfolio">
+            {" "}
+            <img src={LeftArrow} style={{ width: "20px", height: "20px" }} />
+          </a>
         </span>
         <div
           onClick={anywhere}
@@ -50,7 +56,10 @@ const Head = () => {
           style={portfolioPic}
         ></div>
         <span className="directional" style={directions}>
-          <a href="/about">{right}</a>
+          <a href="/about">
+            {" "}
+            <img src={RightArrow} style={{ width: "20px", height: "20px" }} />
+          </a>
         </span>
       </div>
       <div
@@ -64,7 +73,9 @@ const Head = () => {
         }}
       >
         <span className="directional">
-          <a href="/contact">{down}</a>
+          <a href="/contact">
+            <img src={DownArrow} style={{ width: "20px", height: "20px" }} />
+          </a>
         </span>
       </div>
     </Container>
