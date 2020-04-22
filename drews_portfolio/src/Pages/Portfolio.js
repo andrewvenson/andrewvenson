@@ -1,13 +1,14 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Head from "../components/Head";
+import Title from "../components/Title";
 
 const Portfolio = () => {
   return (
     <div>
       <Container>
-        <h3>Portfolio</h3>
         <Head />
+        <Title name="Portfolio" />
       </Container>
     </div>
   );

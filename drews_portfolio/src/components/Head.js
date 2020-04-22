@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import profilePic from "../images/profilePic.png";
 import LeftArrow from "./LeftArrow";
 import RightArrow from "./RightArrow";
+import Title from "./Title";
 
 const Head = () => {
   let portfolioPicContainer = {

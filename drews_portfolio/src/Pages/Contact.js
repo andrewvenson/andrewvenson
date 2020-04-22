@@ -6,7 +6,6 @@ const Contact = () => {
   return (
     <div>
       <Container>
-        <h3>Contact</h3>
         <Head />
         <h5
           style={{
