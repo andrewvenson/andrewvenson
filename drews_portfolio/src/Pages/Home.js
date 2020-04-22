@@ -12,7 +12,7 @@ const Home = () => {
     borderRadius: "10px",
     border: "1px solid lightgray",
     padding: "10px",
-    marginTop: "15px",
+    marginTop: "50px",
   };
 
   const direction = {

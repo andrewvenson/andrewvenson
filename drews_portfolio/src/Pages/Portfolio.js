@@ -18,6 +18,7 @@ const Portfolio = () => {
         <Head />
         <Title name="Portfolio" />
         <div style={projectContainer}>
+          <hr />
           <PortfolioProjects appName="Pycdv" appDetails={ad} />
           <PortfolioProjects appName="Pycdv" appDetails={ad} />
           <PortfolioProjects appName="Pycdv" appDetails={ad} />
