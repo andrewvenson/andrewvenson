@@ -31,6 +31,7 @@ body {
 
 .myName h1 {
   margin-bottom: 0px !important;
+  text-shadow: 2px 2px 2px rgb(31, 31, 31);
 }
 
 .emailSend {
@@ -49,7 +50,12 @@ body {
   box-shadow: 3px 5px 16px black !important;
   width: 260px !important;
   height: 260px !important;
+  opacity: 0.8;
 }
+
+/* .portfolioPic:hover > .directional {
+  font-size: 25px !important;
+} */
 
 @media (max-width: 991px) {
   .divider {
@@ -59,4 +65,9 @@ body {
   .navLink {
     margin: 10px 0px 10px 0px;
   }
+}
+
+.infoBox {
+  background-color: whitesmoke;
+  box-shadow: 3px 5px 8px lightgray;
 }

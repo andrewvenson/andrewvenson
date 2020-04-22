@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import profilePic from "../images/profilePic.png";
-
+import Draggable from "react-draggable";
 const Home = () => {
   const portfolioPicContainer = {
     display: "flex",
@@ -37,27 +37,51 @@ const Home = () => {
   };
 
   const directions = {
-    fontWeight: "bolder",
+    fontWeight: "lighter",
     color: "purple",
+    margin: "10px",
+    // display: "none",
   };
+
+  const left = "<";
+  const right = ">";
+  const down = "v";
   return (
     <div>
       <Container>
         <div style={portfolioPicContainer}>
+          <span className="directional" style={directions}>
+            {left}
+          </span>
           <div
             onClick={anywhere}
             className="portfolioPic"
             style={portfolioPic}
           ></div>
+          <span className="directional" style={directions}>
+            {right}
+          </span>
         </div>
-        <div style={infoBox}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            fontWeight: "lighter",
+            color: "purple",
+            // display: "none",
+          }}
+        >
+          {down}
+        </div>
+
+        <div className="infoBox" style={infoBox}>
           <p>
             Yup, that big goofy head in the center of the page is me.
-            <span style={directions}> Drag that head to the LEFT </span> to view
-            my projects. <span style={directions}>Drag me to the RIGHT </span>
+            <span style={directions}> Drag that head to the LEFT</span> to view
+            my projects.<span style={directions}>Drag me to the RIGHT</span>
             to get a little information about me. If you would like to contact
             me just
-            <span style={directions}> drag me DOWN</span>.
+            <span style={directions}>drag me DOWN.</span>
           </p>
         </div>
       </Container>
