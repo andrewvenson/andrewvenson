@@ -1,6 +1,13 @@
 body {
   background-color: #f5f5f5;
   background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
+  height: 100vh;
+}
+
+.home {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 .navLink {

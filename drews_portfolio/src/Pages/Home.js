@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import profilePic from "../images/profilePic.png";
 import Head from "../components/Head";
+import homeRun from "../images/home-run.png";
 import RightArrow from "../images/right-arrow.png";
 import LeftArrow from "../images/left-arrow.png";
 
@@ -68,6 +69,17 @@ const Home = () => {
                   />
                   .
                 </span>
+              </span>
+              <span>
+                {" "}
+                Oh and click Home{" "}
+                <span>
+                  <img
+                    src={homeRun}
+                    style={{ width: "30px", height: "30px" }}
+                  />
+                </span>{" "}
+                in the right corner to get back here!
               </span>
             </p>
           </div>

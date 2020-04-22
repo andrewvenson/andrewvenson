@@ -5,8 +5,7 @@ import About from "./Pages/About";
 import Home from "./Pages/Home";
 import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
-import "./images/profilePic.png";
-
+import HomeRun from "./components/HomeRun";
 import {
   BrowserRouter as Router,
   Switch,
@@ -24,6 +23,7 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/portfolio" component={Portfolio} />
       </Switch>
+      <HomeRun />
     </Router>
   );
 }
