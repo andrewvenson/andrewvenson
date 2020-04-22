@@ -69,15 +69,14 @@ const Head = () => {
   } else if (window.location.pathname == "/contact") {
     portfolioPicContainer = {
       display: "flex",
-      flexDirection: "column",
-      justifyContent: "flex-end",
+      justifyContent: "center",
       alignItems: "center",
-      marginTop: "50px",
+      marginTop: "10px",
     };
     portfolioPic = {
       borderRadius: "50%",
-      height: "100px",
-      width: "100px",
+      height: "150px",
+      width: "150px",
       border: "1px solid lightgray",
       backgroundColor: "lightgray",
       boxShadow: "3px 5px 8px gray",
@@ -86,8 +85,8 @@ const Head = () => {
     };
   }
 
-  const anywhere = () => {
-    window.location.href = "/";
+  const contact = () => {
+    window.location.href = "/contact";
   };
 
   const onHover = {
@@ -99,7 +98,7 @@ const Head = () => {
       <div style={portfolioPicContainer}>
         <LeftArrow />
         <div
-          onClick={anywhere}
+          onClick={contact}
           className="portfolioPic"
           style={portfolioPic}
         ></div>

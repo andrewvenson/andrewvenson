@@ -2,7 +2,6 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import profilePic from "../images/profilePic.png";
 import Head from "../components/Head";
-import DownArrow from "../images/down-arrow.png";
 import RightArrow from "../images/right-arrow.png";
 import LeftArrow from "../images/left-arrow.png";
 
