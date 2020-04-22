@@ -8,6 +8,16 @@ const Contact = () => {
       <Container>
         <h3>Contact</h3>
         <Head />
+        <h5
+          style={{
+            fontWeight: "bold",
+            display: "flex",
+            justifyContent: "center",
+            marginTop: "10px",
+          }}
+        >
+          Andrew Estefan Venson IV
+        </h5>
       </Container>
     </div>
   );
