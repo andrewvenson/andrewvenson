@@ -10,7 +10,7 @@ const Title = (props) => {
       textShadow: "2px 4px 10px gray",
       margin: "0px",
     };
-  } else if (window.location.pathname == "/portfolio") {
+  } else if (window.location.pathname == "/projects") {
     titleStyle = {
       display: "flex",
       justifyContent: "flex-end",

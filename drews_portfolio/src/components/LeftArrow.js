@@ -9,14 +9,14 @@ const LeftArrow = () => {
     textDecoration: "none",
   };
 
-  if (window.location.pathname == "/portfolio") {
+  if (window.location.pathname == "/projects") {
     directions = {
       display: "none",
     };
   }
   return (
-    <a href="/portfolio" className="portArrow" style={directions}>
-      <span style={{ color: "lightgray", fontSize: "14px" }}>Portfolio</span>
+    <a href="/projects" className="portArrow" style={directions}>
+      <span style={{ color: "lightgray", fontSize: "14px" }}>Projects</span>
       <span className="portfolio " style={directions}>
         <img src={LeftArrowPic} style={{ width: "20px", height: "20px" }} />
       </span>

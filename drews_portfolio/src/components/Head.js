@@ -3,7 +3,6 @@ import { Container } from "react-bootstrap";
 import profilePic from "../images/profilePic.png";
 import LeftArrow from "./LeftArrow";
 import RightArrow from "./RightArrow";
-import Title from "./Title";
 
 const Head = () => {
   let portfolioPicContainer = {
@@ -33,7 +32,7 @@ const Head = () => {
     backgroundSize: "cover",
   };
 
-  if (window.location.pathname == "/portfolio") {
+  if (window.location.pathname == "/projects") {
     portfolioPicContainer = {
       display: "flex",
       justifyContent: "flex-start",
