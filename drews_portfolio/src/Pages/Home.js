@@ -39,7 +39,7 @@ const Home = () => {
                   />
                 </span>
               </span>
-              to view my projects.
+              to view <span style={{ fontWeight: "bold" }}>my projects</span>.
               <span style={direction}>
                 {" "}
                 Click the RIGHT
@@ -51,23 +51,13 @@ const Home = () => {
                   />
                 </span>
               </span>
-              to get a little information about me. If you would like to contact
-              me just
+              to get a little information{" "}
+              <span style={{ fontWeight: "bold" }}>about me</span>. If you would
+              like to <span style={{ fontWeight: "bold" }}>contact me</span>{" "}
+              just
               <span style={direction}>
                 {" "}
-                click the DOWN
-                <span style={{ fontWeight: "bolder" }}>
-                  {" "}
-                  <img
-                    src={DownArrow}
-                    style={{ width: "10px", height: "10px" }}
-                  />
-                  .
-                </span>
-              </span>
-              <span style={{ fontWeight: "bolder" }}>
-                {" "}
-                You can always click my face{" "}
+                click my face{" "}
                 <span>
                   <img
                     src={profilePic}
@@ -77,8 +67,8 @@ const Home = () => {
                       borderRadius: "50%",
                     }}
                   />
-                </span>{" "}
-                to get back here.
+                  .
+                </span>
               </span>
             </p>
           </div>
