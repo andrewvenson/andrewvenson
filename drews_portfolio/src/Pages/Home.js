@@ -7,7 +7,7 @@ const Home = () => {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    height: "40vh",
+    marginTop: "50px",
   };
   const portfolioPic = {
     borderRadius: "50%",

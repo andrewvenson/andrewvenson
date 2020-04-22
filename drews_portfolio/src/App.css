@@ -50,3 +50,13 @@ body {
   width: 260px !important;
   height: 260px !important;
 }
+
+@media (max-width: 991px) {
+  .divider {
+    display: none !important;
+  }
+
+  .navLink {
+    margin: 10px 0px 10px 0px;
+  }
+}
