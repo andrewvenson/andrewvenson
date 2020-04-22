@@ -20,6 +20,10 @@ const Home = () => {
     backgroundSize: "cover",
   };
 
+  const anywhere = () => {
+    window.location.href = "/about";
+  };
+
   const onHover = {
     boxShadow: "3px 5px 8px black",
   };
@@ -27,7 +31,11 @@ const Home = () => {
     <div>
       <Container>
         <div style={portfolioPicContainer}>
-          <div className="portfolioPic" style={portfolioPic}></div>
+          <div
+            onClick={anywhere}
+            className="portfolioPic"
+            style={portfolioPic}
+          ></div>
         </div>
       </Container>
     </div>

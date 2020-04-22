@@ -47,8 +47,6 @@ body {
 
 .portfolioPic:hover {
   box-shadow: 3px 5px 16px black !important;
+  width: 260px !important;
+  height: 260px !important;
 }
-
-/* .portfolioPic {
-  background: url("../images/profilePic.png");
-} */
