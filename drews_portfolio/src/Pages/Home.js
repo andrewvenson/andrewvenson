@@ -73,16 +73,18 @@ const Home = () => {
         >
           {down}
         </div>
-
-        <div className="infoBox" style={infoBox}>
-          <p>
-            Yup, that big goofy head in the center of the page is me.
-            <span style={directions}> Drag that head to the LEFT</span> to view
-            my projects.<span style={directions}>Drag me to the RIGHT</span>
-            to get a little information about me. If you would like to contact
-            me just
-            <span style={directions}>drag me DOWN.</span>
-          </p>
+        <div className="infoBoxContainer">
+          <div className="infoBox" style={infoBox}>
+            <p>
+              Yup, that big goofy head up there is me page is me.
+              <span style={directions}> Drag that head to the LEFT</span> to
+              view my projects.
+              <span style={directions}>Drag me to the RIGHT</span>
+              to get a little information about me. If you would like to contact
+              me just
+              <span style={directions}>drag me DOWN.</span>
+            </p>
+          </div>
         </div>
       </Container>
     </div>
