@@ -1,5 +1,6 @@
 import React from "react";
 import LeftArrowPic from "../images/left-arrow.png";
+import Title from "./Title.js";
 
 const LeftArrow = () => {
   let directions = {
@@ -15,12 +16,14 @@ const LeftArrow = () => {
     };
   }
   return (
-    <span className="portfolio directional" style={directions}>
-      <a href="/portfolio">
-        {" "}
-        <img src={LeftArrowPic} style={{ width: "20px", height: "20px" }} />
-      </a>
-    </span>
+    <div>
+      <span className="portfolio directional" style={directions}>
+        <a href="/portfolio">
+          {" "}
+          <img src={LeftArrowPic} style={{ width: "20px", height: "20px" }} />
+        </a>
+      </span>
+    </div>
   );
 };
 

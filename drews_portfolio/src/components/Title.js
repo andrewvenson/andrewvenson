@@ -6,11 +6,17 @@ const Title = (props) => {
     titleStyle = {
       display: "flex",
       justifyContent: "flex-start",
+      fontWeight: "bold",
+      textShadow: "2px 4px 10px gray",
+      margin: "0px",
     };
   } else if (window.location.pathname == "/portfolio") {
     titleStyle = {
       display: "flex",
       justifyContent: "flex-end",
+      fontWeight: "bold",
+      textShadow: "2px 4px 10px gray",
+      margin: "0px",
     };
   }
   return <h4 style={titleStyle}>{props.name}</h4>;
