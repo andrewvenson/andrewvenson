@@ -109,6 +109,11 @@ body {
 }
 
 .home {
+  -webkit-filter: drop-shadow(5px 5px 5px rgb(155, 155, 155)) !important;
+  filter: drop-shadow(5px 5px 5px rgb(155, 155, 155)) !important;
+}
+
+.home:hover {
   -webkit-filter: drop-shadow(5px 5px 5px rgb(110, 110, 110)) !important;
   filter: drop-shadow(5px 5px 5px rgb(107, 107, 107)) !important;
 }
