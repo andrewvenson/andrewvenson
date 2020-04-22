@@ -39,7 +39,7 @@ const NavComponent = () => {
                 <NavLinks name="About" classN="about" linkey="/about" />
                 <NavLinks name="Contact" classN="contact" linkey="/contact" />
               </Nav>
-              <Form inline>
+              <Form className="emailForm" inline>
                 <FormControl
                   type="text"
                   placeholder="Email"
