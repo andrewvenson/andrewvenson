@@ -52,6 +52,7 @@ body {
   height: 260px !important;
   opacity: 0.8;
   border-color: rgb(180, 118, 180) !important;
+  cursor: pointer;
 }
 
 /* .portfolioPic:hover > .directional {
@@ -93,6 +94,10 @@ body {
 .infoBox {
   background-color: whitesmoke;
   box-shadow: 3px 5px 8px lightgray;
+}
+
+.infoBox:hover {
+  box-shadow: 4px 8px 16px gray;
 }
 
 .directional a {
