@@ -16,7 +16,21 @@ const PortfolioProjects = (props) => {
     <div className="portProj" style={Project}>
       <h4>{props.appName}</h4>
       <p>{props.appDetails}</p>
-      <a style={{ position: "absolute", bottom: "0px" }}>
+      <a
+        href="/contact"
+        style={{
+          position: "absolute",
+          bottom: "5px",
+          backgroundColor: "purple",
+          padding: "5px",
+          borderRadius: "10px",
+          textDecoration: "none",
+          //   fontWeight: "bold",
+          color: "white",
+          width: "95%",
+          boxShadow: "2px 4px 6px lightgray",
+        }}
+      >
         Like this site? Contact me for more information
       </a>
     </div>
