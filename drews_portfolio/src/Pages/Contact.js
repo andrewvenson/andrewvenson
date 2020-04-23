@@ -13,6 +13,7 @@ const Contact = () => {
             display: "flex",
             justifyContent: "center",
             marginTop: "10px",
+            textShadow: "2px 2px 6px gray",
           }}
         >
           Andrew Estefan Venson IV
