@@ -21,13 +21,13 @@ const PortfolioProjects = (props) => {
         style={{
           position: "absolute",
           bottom: "5px",
-          backgroundColor: "purple",
+          backgroundColor: "#343A40",
           padding: "5px",
           borderRadius: "10px",
           textDecoration: "none",
           //   fontWeight: "bold",
-          color: "white",
-          width: "95%",
+          color: "rgb(168, 145, 168)",
+          width: "94%",
           boxShadow: "2px 4px 6px lightgray",
         }}
       >
