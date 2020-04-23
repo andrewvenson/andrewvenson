@@ -24,6 +24,8 @@ const Head = () => {
     backgroundSize: "cover",
   };
 
+  console.log(window.location.pathname);
+
   if (window.location.pathname === "/projects") {
     portfolioPicContainer = {
       display: "flex",
@@ -84,7 +86,6 @@ const Head = () => {
         <Link to="/contact">
           <div className="portfolioPic" style={portfolioPic}></div>
         </Link>
-
         <RightArrow />
       </div>
     </Container>
