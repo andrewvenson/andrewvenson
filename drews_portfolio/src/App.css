@@ -88,6 +88,16 @@ body {
     width: 110px !important;
     height: 110px !important;
   }
+
+  .AboutMeText {
+    width: 275px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .myLangy {
+    font-size: 10px !important;
+  }
 }
 
 .infoBox:hover {
