@@ -3,7 +3,7 @@ import React from "react";
 const PortfolioProjects = (props) => {
   const Project = {
     border: "1px solid lightgray",
-    width: "300px",
+    width: "350px",
     height: "275px",
     margin: "10px",
     padding: "10px",
@@ -12,7 +12,7 @@ const PortfolioProjects = (props) => {
     backgroundColor: "whitesmoke",
   };
   return (
-    <div style={Project}>
+    <div className="portProj" style={Project}>
       <h4>{props.appName}</h4>
       <p>{props.appDetails}</p>
       <a>Like this site? Contact me for more information</a>

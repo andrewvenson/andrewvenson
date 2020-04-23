@@ -122,3 +122,8 @@ body {
   -webkit-filter: drop-shadow(5px 5px 5px rgb(110, 110, 110)) !important;
   filter: drop-shadow(5px 5px 5px rgb(107, 107, 107)) !important;
 }
+
+.portProj:hover {
+  box-shadow: 4px 8px 16px gray !important;
+  background-color: transparent !important;
+}
