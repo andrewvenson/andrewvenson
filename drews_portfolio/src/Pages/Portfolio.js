@@ -7,10 +7,14 @@ import PortfolioProjects from "../components/PortfolioProjects";
 const Portfolio = () => {
   let ad = "these are the detials of the app";
   const projectContainer = {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    height: "50vh",
+    // display: "flex",
+    // justifyContent: "space-between",
+    // alignItems: "center",
+    // height: "50vh",
+  };
+  const colStyling = {
+    padding: "0px",
+    margin: "0px",
   };
   return (
     <div>
@@ -18,13 +22,13 @@ const Portfolio = () => {
         <Head />
         <Title name="Portfolio" />
         <Row style={projectContainer}>
-          <Col>
+          <Col style={colStyling}>
             <PortfolioProjects appName="Pycdv" appDetails={ad} />
           </Col>
-          <Col>
+          <Col style={colStyling}>
             <PortfolioProjects appName="Pycdv" appDetails={ad} />
           </Col>
-          <Col>
+          <Col style={colStyling}>
             <PortfolioProjects appName="Pycdv" appDetails={ad} />
           </Col>
         </Row>

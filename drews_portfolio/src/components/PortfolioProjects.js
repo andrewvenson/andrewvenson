@@ -9,6 +9,7 @@ const PortfolioProjects = (props) => {
     padding: "10px",
     borderRadius: "10px",
     boxShadow: "3px 4px 15px lightgray",
+    backgroundColor: "whitesmoke",
   };
   return (
     <div style={Project}>

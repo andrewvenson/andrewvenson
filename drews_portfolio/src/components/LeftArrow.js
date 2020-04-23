@@ -16,7 +16,7 @@ const LeftArrow = () => {
   }
   return (
     <a href="/projects" className="arrow" style={directions}>
-      <span className="arrow" style={{ color: "lightgray", fontSize: "14px" }}>
+      <span className="arrow" style={{ color: "gray", fontSize: "14px" }}>
         Projects
       </span>
       <span className="portfolio " style={directions}>

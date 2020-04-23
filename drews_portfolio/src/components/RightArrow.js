@@ -21,7 +21,7 @@ const RightArrow = () => {
       <span className="about" style={directions}>
         <img src={RightArrowPic} style={{ width: "20px", height: "20px" }} />
       </span>
-      <span className="arrow" style={{ color: "lightgray", fontSize: "14px" }}>
+      <span className="arrow" style={{ color: "gray", fontSize: "14px" }}>
         About
       </span>
     </a>

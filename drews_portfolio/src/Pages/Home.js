@@ -13,6 +13,8 @@ const Home = () => {
     border: "1px solid lightgray",
     padding: "10px",
     marginTop: "50px",
+    backgroundColor: "whitesmoke",
+    boxShadow: "3px 5px 8px lightgray",
   };
 
   const direction = {
@@ -27,7 +29,7 @@ const Home = () => {
         <div className="infoBoxContainer">
           <div className="infoBox" style={infoBox}>
             <p>
-              Yup, that big goofy head up there belongs to muah.
+              Yup, that big goofy head up there belongs to me.
               <span style={direction}>
                 {" "}
                 Click the LEFT
