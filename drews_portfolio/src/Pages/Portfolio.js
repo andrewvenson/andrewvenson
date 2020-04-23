@@ -3,9 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import Head from "../components/Head";
 import Title from "../components/Title";
 import PortfolioProjects from "../components/PortfolioProjects";
-
+import PyCdv from "../images/pycdv.PNG";
 const Portfolio = () => {
-  let ad = "these are the details of the app";
+  let ad =
+    "PyCDV is a website that compiles statistics, fact, and information about our current COVID-19 pandemic";
   let lorem = "Just some random details...";
   const projectContainer = {
     // display: "flex",
@@ -25,7 +26,12 @@ const Portfolio = () => {
         <Title name="Projects" />
         <Row style={projectContainer}>
           <Col style={colStyling}>
-            <PortfolioProjects appName="Pycdv" appDetails={ad} />
+            <PortfolioProjects
+              appUrl="https://pycdv.com"
+              appName="Pycdv"
+              appDetails={ad}
+              appImage={PyCdv}
+            />
           </Col>
           <Col style={colStyling}>
             <PortfolioProjects appName="To Be Continued" appDetails={lorem} />
