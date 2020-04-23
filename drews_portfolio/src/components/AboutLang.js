@@ -7,7 +7,7 @@ import MsLogo from "../images/mysql.png";
 
 const AboutLang = () => {
   return (
-    <section>
+    <section className="langs">
       <p
         className="myLangy"
         style={{ color: "gray", display: "flex", justifyContent: "center" }}
