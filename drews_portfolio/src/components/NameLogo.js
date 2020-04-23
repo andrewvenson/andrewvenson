@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const NameLogo = () => {
   let navLinkStyle = {
@@ -14,8 +15,10 @@ const NameLogo = () => {
     };
   }
   return (
-    <Navbar.Brand href="/" className="myName" style={navLinkStyle}>
-      <h1>Andrew V.</h1>
+    <Navbar.Brand className="myName" style={navLinkStyle}>
+      <Link to="/">
+        <h1>Andrew V.</h1>
+      </Link>
     </Navbar.Brand>
   );
 };

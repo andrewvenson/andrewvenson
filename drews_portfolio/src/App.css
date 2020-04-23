@@ -41,6 +41,12 @@ body {
   font-weight: bolder;
 }
 
+.myName a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(121, 100, 121) !important;
+}
+
 .myName h1 {
   margin-bottom: 0px !important;
   text-shadow: 2px 2px 2px rgb(31, 31, 31);
