@@ -37,6 +37,7 @@ const Home = () => {
                   <img
                     src={LeftArrow}
                     style={{ width: "15px", height: "15px" }}
+                    alt="Left Arrow"
                   />
                 </span>
               </span>
@@ -49,6 +50,7 @@ const Home = () => {
                   <img
                     src={RightArrow}
                     style={{ width: "15px", height: "15px" }}
+                    alt="Right Arrow"
                   />
                 </span>
               </span>
@@ -67,6 +69,7 @@ const Home = () => {
                       height: "35px",
                       borderRadius: "50%",
                     }}
+                    alt="Profile"
                   />
                   .
                 </span>
@@ -79,6 +82,7 @@ const Home = () => {
                   <img
                     src={homeRun}
                     style={{ width: "30px", height: "30px" }}
+                    alt="Home"
                   />
                 </span>{" "}
                 in the bottom right corner to get back here!

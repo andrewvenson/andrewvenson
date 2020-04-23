@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import profilePic from "../images/profilePic.png";
 import LeftArrow from "./LeftArrow";
 import RightArrow from "./RightArrow";
@@ -10,15 +11,6 @@ const Head = () => {
     justifyContent: "center",
     alignItems: "center",
     marginTop: "50px",
-  };
-
-  let downArrow = {
-    display: "flex",
-    justifyContent: "center",
-    fontWeight: "lighter",
-    color: "purple",
-    fontSize: "20px",
-    marginTop: "10px",
   };
 
   let portfolioPic = {
@@ -32,7 +24,7 @@ const Head = () => {
     backgroundSize: "cover",
   };
 
-  if (window.location.pathname == "/projects") {
+  if (window.location.pathname === "/projects") {
     portfolioPicContainer = {
       display: "flex",
       justifyContent: "flex-start",
@@ -49,7 +41,7 @@ const Head = () => {
       background: `url(${profilePic})`,
       backgroundSize: "cover",
     };
-  } else if (window.location.pathname == "/about") {
+  } else if (window.location.pathname === "/about") {
     portfolioPicContainer = {
       display: "flex",
       justifyContent: "flex-end",
@@ -66,7 +58,7 @@ const Head = () => {
       background: `url(${profilePic})`,
       backgroundSize: "cover",
     };
-  } else if (window.location.pathname == "/contact") {
+  } else if (window.location.pathname === "/contact") {
     portfolioPicContainer = {
       display: "flex",
       justifyContent: "center",
@@ -85,10 +77,6 @@ const Head = () => {
     };
   }
 
-  const contact = () => {
-    window.location.href = "/contact";
-  };
-
   const onHover = {
     boxShadow: "3px 5px 8px black",
   };
@@ -97,11 +85,10 @@ const Head = () => {
     <Container>
       <div style={portfolioPicContainer}>
         <LeftArrow />
-        <div
-          onClick={contact}
-          className="portfolioPic"
-          style={portfolioPic}
-        ></div>
+        <Link to="/">
+          <div className="portfolioPic" style={portfolioPic}></div>
+        </Link>
+
         <RightArrow />
       </div>
     </Container>

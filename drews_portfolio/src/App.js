@@ -6,12 +6,7 @@ import Home from "./Pages/Home";
 import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
 import HomeRun from "./components/HomeRun";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  HashRouter,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (

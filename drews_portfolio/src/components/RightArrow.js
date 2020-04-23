@@ -11,7 +11,7 @@ const RightArrow = () => {
     textDecoration: "none",
   };
 
-  if (window.location.pathname == "/about") {
+  if (window.location.pathname === "/about") {
     directions = {
       display: "none",
     };
@@ -20,7 +20,11 @@ const RightArrow = () => {
   return (
     <Link to="/about" className="arrow" style={directions}>
       <span className="about" style={directions}>
-        <img src={RightArrowPic} style={{ width: "20px", height: "20px" }} />
+        <img
+          src={RightArrowPic}
+          style={{ width: "20px", height: "20px" }}
+          alt="Right Arrow"
+        />
       </span>
       <span className="arrow" style={{ color: "gray", fontSize: "14px" }}>
         About

@@ -5,6 +5,8 @@ const NavLinks = (props) => {
   let navLinkStyle = {
     color: "rgb(168, 145, 168)",
   };
+
+  console.log(props.linkey);
   if (window.location.pathname === props.linkey) {
     navLinkStyle = {
       borderBottom: "2px solid purple",

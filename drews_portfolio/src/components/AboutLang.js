@@ -17,22 +17,27 @@ const AboutLang = () => {
       <img
         src={ReactLogo}
         style={{ width: "60px", height: "60px", margin: "10px" }}
+        alt="React"
       />
       <img
         src={PythonLogo}
         style={{ width: "60px", height: "60px", margin: "10px" }}
+        alt="Python"
       />
       <img
         src={PhpLogo}
         style={{ width: "60px", height: "60px", margin: "10px" }}
+        alt="Php"
       />
       <img
         src={JsLogo}
         style={{ width: "60px", height: "60px", margin: "10px" }}
+        alt="Javascript"
       />
       <img
         src={MsLogo}
         style={{ width: "60px", height: "60px", margin: "10px" }}
+        alt="MySql"
       />
     </section>
   );

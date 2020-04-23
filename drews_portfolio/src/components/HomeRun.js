@@ -13,6 +13,7 @@ const HomeRun = () => {
           height: "50px",
           filter: "drop-shadow(12px 12px 25px rgba(0,0,0,0.5))",
         }}
+        alt="Home"
       />
     </Link>
   );
