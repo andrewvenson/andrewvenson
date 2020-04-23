@@ -13,7 +13,6 @@ const Home = () => {
     border: "1px solid lightgray",
     padding: "10px",
     marginTop: "50px",
-    backgroundColor: "whitesmoke",
     boxShadow: "3px 5px 8px lightgray",
   };
 

@@ -91,7 +91,7 @@ body {
 }
 
 .infoBox:hover {
-  box-shadow: 4px 8px 16px gray;
+  box-shadow: 4px 8px 16px gray !important;
 }
 
 .AboutMeText:hover {
