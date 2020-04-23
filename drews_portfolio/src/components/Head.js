@@ -24,8 +24,6 @@ const Head = () => {
     backgroundSize: "cover",
   };
 
-  console.log(window.location.pathname);
-
   if (window.location.pathname === "/projects") {
     portfolioPicContainer = {
       display: "flex",
