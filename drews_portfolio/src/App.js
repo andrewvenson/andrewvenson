@@ -15,16 +15,13 @@ import {
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL + "/"}>
       <NavComponent />
       <Switch>
-        <Route path={process.env.PUBLIC_URL + "/"} exact component={Home} />
-        <Route path={process.env.PUBLIC_URL + "/about"} component={About} />
-        <Route path={process.env.PUBLIC_URL + "/contact"} component={Contact} />
-        <Route
-          path={process.env.PUBLIC_URL + "/projects"}
-          component={Portfolio}
-        />
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/projects" component={Portfolio} />
       </Switch>
       <HomeRun />
     </Router>
