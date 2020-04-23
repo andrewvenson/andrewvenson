@@ -4,15 +4,13 @@ import Head from "../components/Head";
 import Title from "../components/Title";
 import PortfolioProjects from "../components/PortfolioProjects";
 import PyCdv from "../images/pycdv.PNG";
+import Tbc from "../images/tbc.jpg";
+
 const Portfolio = () => {
   let ad =
     "PyCDV is a website that compiles statistics, facts, and information about our current COVID-19 pandemic";
-  let lorem = "Just some random details...";
+  let lorem = "Pending creation...";
   const projectContainer = {
-    // display: "flex",
-    // justifyContent: "space-between",
-    // alignItems: "center",
-    // height: "50vh",
     marginTop: "30px",
   };
   const colStyling = {
@@ -34,10 +32,18 @@ const Portfolio = () => {
             />
           </Col>
           <Col style={colStyling}>
-            <PortfolioProjects appName="To Be Continued" appDetails={lorem} />
+            <PortfolioProjects
+              appImage={Tbc}
+              appName="To Be Continued"
+              appDetails={lorem}
+            />
           </Col>
           <Col style={colStyling}>
-            <PortfolioProjects appName="To Be Continued" appDetails={lorem} />
+            <PortfolioProjects
+              appImage={Tbc}
+              appName="To Be Continued"
+              appDetails={lorem}
+            />
           </Col>
         </Row>
       </Container>

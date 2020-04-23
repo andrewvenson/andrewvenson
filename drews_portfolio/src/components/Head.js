@@ -23,8 +23,8 @@ const Head = () => {
 
   let portfolioPic = {
     borderRadius: "50%",
-    height: "190px",
-    width: "190px",
+    height: "200px",
+    width: "200px",
     border: "1px solid lightgray",
     backgroundColor: "lightgray",
     boxShadow: "3px 5px 8px gray",
