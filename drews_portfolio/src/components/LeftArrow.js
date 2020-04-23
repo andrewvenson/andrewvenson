@@ -9,13 +9,17 @@ const LeftArrow = () => {
     textDecoration: "none",
   };
 
-  if (window.location.pathname == "/projects") {
+  if (window.location.pathname == "/drews_portfolio/projects") {
     directions = {
       display: "none",
     };
   }
   return (
-    <a href="/projects" className="arrow" style={directions}>
+    <a
+      href={process.env.PUBLIC_URL + "/projects"}
+      className="arrow"
+      style={directions}
+    >
       <span className="arrow" style={{ color: "gray", fontSize: "14px" }}>
         Projects
       </span>

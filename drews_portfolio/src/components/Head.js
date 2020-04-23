@@ -32,7 +32,7 @@ const Head = () => {
     backgroundSize: "cover",
   };
 
-  if (window.location.pathname == "/projects") {
+  if (window.location.pathname == "/drews_portfolio/projects") {
     portfolioPicContainer = {
       display: "flex",
       justifyContent: "flex-start",
@@ -49,7 +49,7 @@ const Head = () => {
       background: `url(${profilePic})`,
       backgroundSize: "cover",
     };
-  } else if (window.location.pathname == "/about") {
+  } else if (window.location.pathname == "/drews_portfolio/about") {
     portfolioPicContainer = {
       display: "flex",
       justifyContent: "flex-end",
@@ -66,7 +66,7 @@ const Head = () => {
       background: `url(${profilePic})`,
       backgroundSize: "cover",
     };
-  } else if (window.location.pathname == "/contact") {
+  } else if (window.location.pathname == "/drews_portfolio/contact") {
     portfolioPicContainer = {
       display: "flex",
       justifyContent: "center",
@@ -86,7 +86,7 @@ const Head = () => {
   }
 
   const contact = () => {
-    window.location.href = "/contact";
+    window.location.href = "/drews_portfolio/contact";
   };
 
   const onHover = {

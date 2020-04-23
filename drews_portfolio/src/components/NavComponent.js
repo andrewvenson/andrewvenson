@@ -34,10 +34,18 @@ const NavComponent = () => {
                 <NavLinks
                   name="Projects"
                   classN="projects"
-                  linkey="/projects"
+                  linkey={process.env.PUBLIC_URL + "/projects"}
                 />
-                <NavLinks name="About" classN="about" linkey="/about" />
-                <NavLinks name="Contact" classN="contact" linkey="/contact" />
+                <NavLinks
+                  name="About"
+                  classN="about"
+                  linkey={process.env.PUBLIC_URL + "/about"}
+                />
+                <NavLinks
+                  name="Contact"
+                  classN="contact"
+                  linkey={process.env.PUBLIC_URL + "/contact"}
+                />
               </Nav>
               <Form className="emailForm" inline>
                 <FormControl

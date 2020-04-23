@@ -10,14 +10,18 @@ const RightArrow = () => {
     textDecoration: "none",
   };
 
-  if (window.location.pathname == "/about") {
+  if (window.location.pathname == "/drews_portfolio/about") {
     directions = {
       display: "none",
     };
   }
 
   return (
-    <a href="/about" className="arrow" style={directions}>
+    <a
+      href={process.env.PUBLIC_URL + "/about"}
+      className="arrow"
+      style={directions}
+    >
       <span className="about" style={directions}>
         <img src={RightArrowPic} style={{ width: "20px", height: "20px" }} />
       </span>
