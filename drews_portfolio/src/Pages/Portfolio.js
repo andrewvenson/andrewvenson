@@ -6,7 +6,7 @@ import PortfolioProjects from "../components/PortfolioProjects";
 import PyCdv from "../images/pycdv.PNG";
 const Portfolio = () => {
   let ad =
-    "PyCDV is a website that compiles statistics, fact, and information about our current COVID-19 pandemic";
+    "PyCDV is a website that compiles statistics, facts, and information about our current COVID-19 pandemic";
   let lorem = "Just some random details...";
   const projectContainer = {
     // display: "flex",

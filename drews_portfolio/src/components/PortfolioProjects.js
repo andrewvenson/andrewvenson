@@ -30,7 +30,7 @@ const PortfolioProjects = (props) => {
         <h4>{props.appName}</h4>
       </a>
       <img style={projectImage} src={props.appImage} />
-      <p>{props.appDetails}</p>
+      <p style={{ color: "gray" }}>{props.appDetails}</p>
       <a
         href="/contact"
         style={{
