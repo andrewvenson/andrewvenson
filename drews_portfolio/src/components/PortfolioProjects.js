@@ -10,12 +10,15 @@ const PortfolioProjects = (props) => {
     borderRadius: "10px",
     boxShadow: "3px 4px 15px lightgray",
     backgroundColor: "whitesmoke",
+    position: "relative",
   };
   return (
     <div className="portProj" style={Project}>
       <h4>{props.appName}</h4>
       <p>{props.appDetails}</p>
-      <a>Like this site? Contact me for more information</a>
+      <a style={{ position: "absolute", bottom: "0px" }}>
+        Like this site? Contact me for more information
+      </a>
     </div>
   );
 };
