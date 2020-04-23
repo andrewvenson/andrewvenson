@@ -14,6 +14,9 @@ body {
 .navLink {
   color: rgb(168, 145, 168);
   font-size: 18px;
+  text-decoration: none !important;
+  margin-right: 10px;
+  padding: 5px;
 }
 
 .navLink:hover {
@@ -22,6 +25,7 @@ body {
   box-shadow: 2px 2px 2px #000;
   font-weight: bold;
   color: rgb(121, 100, 121) !important;
+  padding: 5px;
 }
 
 * {

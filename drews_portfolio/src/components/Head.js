@@ -77,10 +77,6 @@ const Head = () => {
     };
   }
 
-  const onHover = {
-    boxShadow: "3px 5px 8px black",
-  };
-
   return (
     <Container>
       <div style={portfolioPicContainer}>

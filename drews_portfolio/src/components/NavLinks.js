@@ -1,5 +1,6 @@
 import React from "react";
-import { Nav } from "react-bootstrap";
+import { NavLink } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const NavLinks = (props) => {
   let navLinkStyle = {
@@ -15,13 +16,13 @@ const NavLinks = (props) => {
     };
   }
   return (
-    <Nav.Link
+    <Link
+      to={props.linkey}
       style={navLinkStyle}
       className={`navLink ${props.classN}`}
-      href={props.linkey}
     >
       {props.name}
-    </Nav.Link>
+    </Link>
   );
 };
 
