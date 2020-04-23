@@ -27,7 +27,7 @@ const Home = () => {
         <div className="infoBoxContainer">
           <div className="infoBox" style={infoBox}>
             <p>
-              Yup, that big goofy head up there is me.
+              Yup, that big goofy head up there belongs to muah.
               <span style={direction}>
                 {" "}
                 Click the LEFT

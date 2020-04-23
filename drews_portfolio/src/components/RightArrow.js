@@ -17,11 +17,13 @@ const RightArrow = () => {
   }
 
   return (
-    <a href="/about" className="aboutArrow" style={directions}>
+    <a href="/about" className="arrow" style={directions}>
       <span className="about" style={directions}>
         <img src={RightArrowPic} style={{ width: "20px", height: "20px" }} />
       </span>
-      <span style={{ color: "lightgray", fontSize: "14px" }}>About</span>
+      <span className="arrow" style={{ color: "lightgray", fontSize: "14px" }}>
+        About
+      </span>
     </a>
   );
 };

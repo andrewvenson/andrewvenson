@@ -15,8 +15,10 @@ const LeftArrow = () => {
     };
   }
   return (
-    <a href="/projects" className="portArrow" style={directions}>
-      <span style={{ color: "lightgray", fontSize: "14px" }}>Projects</span>
+    <a href="/projects" className="arrow" style={directions}>
+      <span className="arrow" style={{ color: "lightgray", fontSize: "14px" }}>
+        Projects
+      </span>
       <span className="portfolio " style={directions}>
         <img src={LeftArrowPic} style={{ width: "20px", height: "20px" }} />
       </span>
