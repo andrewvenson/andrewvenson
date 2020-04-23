@@ -81,7 +81,7 @@ const Head = () => {
     <Container>
       <div style={portfolioPicContainer}>
         <LeftArrow />
-        <Link to="/">
+        <Link to="/contact">
           <div className="portfolioPic" style={portfolioPic}></div>
         </Link>
 

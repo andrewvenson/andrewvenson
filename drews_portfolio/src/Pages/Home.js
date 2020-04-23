@@ -8,7 +8,7 @@ import LeftArrow from "../images/left-arrow.png";
 
 const Home = () => {
   const infoBox = {
-    width: "300px",
+    width: "350px",
     borderRadius: "10px",
     border: "1px solid lightgray",
     padding: "10px",

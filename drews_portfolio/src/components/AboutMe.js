@@ -6,7 +6,7 @@ const AboutMe = () => {
     padding: "7px",
     borderRadius: "10px",
     marginTop: "25px",
-    width: "300px",
+    width: "500px",
     boxShadow: "3px 5px 17px lightgray",
   };
   return (

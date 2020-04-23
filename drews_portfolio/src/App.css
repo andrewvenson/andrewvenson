@@ -102,6 +102,10 @@ body {
   .AboutMeText {
     width: 275px !important;
   }
+
+  .AboutMeText {
+    width: 300px !important;
+  }
 }
 
 @media (max-width: 400px) {
