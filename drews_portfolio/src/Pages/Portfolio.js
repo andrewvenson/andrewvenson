@@ -20,7 +20,7 @@ const Portfolio = () => {
     <div>
       <Container>
         <Head />
-        <Title name="Portfolio" />
+        <Title name="Projects" />
         <Row style={projectContainer}>
           <Col style={colStyling}>
             <PortfolioProjects appName="Pycdv" appDetails={ad} />
