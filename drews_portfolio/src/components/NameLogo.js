@@ -6,7 +6,7 @@ const NameLogo = () => {
     color: "rgb(168, 145, 168)",
   };
   console.log(window.location.pathname);
-  if (window.location.pathname === "/drews_portfolio/") {
+  if (window.location.pathname === "/") {
     navLinkStyle = {
       borderBottom: "2px solid purple",
       color: "rgb(121, 100, 121)",
@@ -14,11 +14,7 @@ const NameLogo = () => {
     };
   }
   return (
-    <Navbar.Brand
-      href={process.env.PUBLIC_URL + "/"}
-      className="myName"
-      style={navLinkStyle}
-    >
+    <Navbar.Brand href="/" className="myName" style={navLinkStyle}>
       <h1>Andrew V.</h1>
     </Navbar.Brand>
   );

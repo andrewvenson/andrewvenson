@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PortfolioProjects = (props) => {
   const Project = {
@@ -31,8 +32,8 @@ const PortfolioProjects = (props) => {
       </a>
       <img style={projectImage} src={props.appImage} />
       <p style={{ color: "gray" }}>{props.appDetails}</p>
-      <a
-        href="/contact"
+      <Link
+        to="/contact"
         style={{
           position: "absolute",
           bottom: "5px",
@@ -46,7 +47,7 @@ const PortfolioProjects = (props) => {
         }}
       >
         Like this app? Contact me for more information
-      </a>
+      </Link>
     </section>
   );
 };

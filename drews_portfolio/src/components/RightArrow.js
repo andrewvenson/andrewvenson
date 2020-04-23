@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import RightArrowPic from "../images/right-arrow.png";
 
 const RightArrow = () => {
@@ -10,25 +11,21 @@ const RightArrow = () => {
     textDecoration: "none",
   };
 
-  if (window.location.pathname == "/drews_portfolio/about") {
+  if (window.location.pathname == "/about") {
     directions = {
       display: "none",
     };
   }
 
   return (
-    <a
-      href={process.env.PUBLIC_URL + "/about"}
-      className="arrow"
-      style={directions}
-    >
+    <Link to="/about" className="arrow" style={directions}>
       <span className="about" style={directions}>
         <img src={RightArrowPic} style={{ width: "20px", height: "20px" }} />
       </span>
       <span className="arrow" style={{ color: "gray", fontSize: "14px" }}>
         About
       </span>
-    </a>
+    </Link>
   );
 };
 

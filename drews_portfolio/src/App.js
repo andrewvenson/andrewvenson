@@ -15,7 +15,7 @@ import {
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL + "/"}>
+    <Router>
       <NavComponent />
       <Switch>
         <Route path="/" exact component={Home} />
