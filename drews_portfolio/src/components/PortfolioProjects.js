@@ -12,9 +12,11 @@ const PortfolioProjects = (props) => {
     backgroundColor: "whitesmoke",
     position: "relative",
   };
+
   return (
-    <div className="portProj" style={Project}>
+    <section className="portProj" style={Project}>
       <h4>{props.appName}</h4>
+
       <p>{props.appDetails}</p>
       <a
         href="/contact"
@@ -25,15 +27,14 @@ const PortfolioProjects = (props) => {
           padding: "5px",
           borderRadius: "10px",
           textDecoration: "none",
-          //   fontWeight: "bold",
           color: "rgb(168, 145, 168)",
           width: "94%",
           boxShadow: "2px 4px 6px lightgray",
         }}
       >
-        Like this site? Contact me for more information
+        Like this app? Contact me for more information
       </a>
-    </div>
+    </section>
   );
 };
 

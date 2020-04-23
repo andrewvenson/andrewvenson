@@ -5,12 +5,14 @@ import Title from "../components/Title";
 import PortfolioProjects from "../components/PortfolioProjects";
 
 const Portfolio = () => {
-  let ad = "these are the detials of the app";
+  let ad = "these are the details of the app";
+  let lorem = "Just some random details...";
   const projectContainer = {
     // display: "flex",
     // justifyContent: "space-between",
     // alignItems: "center",
     // height: "50vh",
+    marginTop: "30px",
   };
   const colStyling = {
     padding: "0px",
@@ -26,10 +28,10 @@ const Portfolio = () => {
             <PortfolioProjects appName="Pycdv" appDetails={ad} />
           </Col>
           <Col style={colStyling}>
-            <PortfolioProjects appName="Pycdv" appDetails={ad} />
+            <PortfolioProjects appName="To Be Continued" appDetails={lorem} />
           </Col>
           <Col style={colStyling}>
-            <PortfolioProjects appName="Pycdv" appDetails={ad} />
+            <PortfolioProjects appName="To Be Continued" appDetails={lorem} />
           </Col>
         </Row>
       </Container>
