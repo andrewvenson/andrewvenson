@@ -6,7 +6,6 @@ const NameLogo = () => {
   let navLinkStyle = {
     color: "rgb(168, 145, 168)",
   };
-  console.log(window.location.pathname);
   if (window.location.pathname === "/") {
     navLinkStyle = {
       borderBottom: "2px solid purple",

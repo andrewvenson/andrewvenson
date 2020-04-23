@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const NavLinks = (props) => {
@@ -7,7 +6,7 @@ const NavLinks = (props) => {
     color: "rgb(168, 145, 168)",
   };
 
-  console.log(props.linkey);
+  // console.log(props.linkey);
   if (window.location.pathname === props.linkey) {
     navLinkStyle = {
       borderBottom: "2px solid purple",
