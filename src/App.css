@@ -72,6 +72,11 @@ body {
   color: purple !important;
 }
 
+.infoBoxContainer p {
+  font-family: "Josefin Sans", sans-serif !important ;
+  color: #6b6b6b;
+}
+
 @media (max-width: 991px) {
   .divider {
     display: none !important;

@@ -85,20 +85,17 @@ const Home = () => {
                   />
                   .
                 </span>
-              </span>
+              </span>{" "}
+              Oh and
+              <span style={direction}> click the HOME</span>{" "}
               <span>
-                {" "}
-                Oh and
-                <span style={direction}> click the HOME</span>{" "}
-                <span>
-                  <img
-                    src={homeRun}
-                    style={{ width: "30px", height: "30px" }}
-                    alt="Home"
-                  />
-                </span>{" "}
-                in the bottom right corner to get back here!
-              </span>
+                <img
+                  src={homeRun}
+                  style={{ width: "30px", height: "30px" }}
+                  alt="Home"
+                />
+              </span>{" "}
+              in the bottom right corner to get back here!
             </p>
           </div>
         </div>
