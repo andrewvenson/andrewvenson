@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Head from "../components/Head";
+import ContactNav from "../components/ContactNav";
 
 const title = {
   display: "flex",
@@ -17,6 +18,7 @@ const Contact = () => {
       <Container>
         <Head />
         <h5 style={title}>Andrew Estefan Venson IV</h5>
+        <ContactNav />
       </Container>
     </div>
   );
