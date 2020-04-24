@@ -11,7 +11,12 @@ const About = () => {
       <Container>
         <Head />
         <Title name="About me" />
-        <div style={{ display: "flex", justifyContent: "space-around" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+          }}
+        >
           <AboutMe />
           <AboutLang />
         </div>

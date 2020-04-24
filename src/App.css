@@ -93,15 +93,15 @@ body {
     width: 110px !important;
     height: 110px !important;
   }
+
+  .AboutMeText {
+    width: 275px !important;
+  }
 }
 
 @media (max-width: 400px) {
   .myLangy {
     font-size: 10px !important;
-  }
-
-  .AboutMeText {
-    width: 275px !important;
   }
 }
 
@@ -126,6 +126,10 @@ body {
 .langs img {
   -webkit-filter: drop-shadow(5px 5px 5px rgb(110, 110, 110)) !important;
   filter: drop-shadow(5px 5px 5px rgb(107, 107, 107)) !important;
+}
+
+.langs {
+  margin-bottom: 100px;
 }
 
 .portProj:hover {
