@@ -21,10 +21,22 @@ const Home = () => {
     fontWeight: "lighter",
   };
 
+  const title = {
+    display: "flex",
+    justifyContent: "center",
+    marginTop: "15px",
+    fontFamily: "'Josefin Sans', sans-serif",
+    color: "#754C78",
+    textShadow: "2px 3px 8px gray",
+  };
+
   return (
     <div>
       <Container>
         <Head />
+        <h1 className="homeTitle" style={title}>
+          Andrew Estefan Venson IV
+        </h1>
         <div className="infoBoxContainer">
           <div className="infoBox" style={infoBox}>
             <p>
