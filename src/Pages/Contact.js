@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Head from "../components/Head";
 import ContactNav from "../components/ContactNav";
+import CollaborateForm from "../components/CollaborateForm";
 
 const title = {
   display: "flex",
@@ -19,6 +20,7 @@ const Contact = () => {
         <Head />
         <h5 style={title}>Andrew Estefan Venson IV</h5>
         <ContactNav />
+        <CollaborateForm />
       </Container>
     </div>
   );

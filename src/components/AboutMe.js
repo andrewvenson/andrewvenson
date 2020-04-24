@@ -8,6 +8,8 @@ const AboutMe = () => {
     marginTop: "25px",
     width: "500px",
     boxShadow: "3px 5px 17px lightgray",
+    fontFamily: "'Josefin Sans', sans-serif",
+    color: "#6b6b6b",
   };
   return (
     <section>
@@ -16,12 +18,10 @@ const AboutMe = () => {
         a good learning opportunity. I fell in love with the art of coding from
         being exposed to the c++ programming language at a very young age. My
         enchantment with programming started with a small desire to be smarter
-        than myself. I have a love for learning and enrichment, I've found that
-        I am very good with soaking up a concept and making it fit my own style.
-        Unfortunately, this sponge technique means I don't have much brainpower
-        to allocate to anything that isn't technical (I often forget my
-        girlfriend's birthday). She loves me anyway and understands that code
-        will always be the lady in my life, but I guess I enjoy her too.
+        than myself. I have a love for learning and enrichment, and I've found
+        that I am very good with soaking up a concept and making it fit my own
+        style. My primary focus right now is web development, and those are the
+        languages to the right that I can provide help in.
       </p>
     </section>
   );
