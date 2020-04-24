@@ -10,7 +10,7 @@ const Head = () => {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    marginTop: "50px",
+    marginTop: "20px",
   };
 
   let portfolioPic = {
