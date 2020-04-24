@@ -6,16 +6,11 @@ import Home from "./Pages/Home";
 import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
 import HomeRun from "./components/HomeRun";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  HashRouter,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <Router>
       <NavComponent />
       <Switch>
         <Route path="/" exact component={Home} />
@@ -25,7 +20,7 @@ function App() {
         <Route path="/projects" component={Portfolio} />
       </Switch>
       <HomeRun />
-    </HashRouter>
+    </Router>
   );
 }
 
