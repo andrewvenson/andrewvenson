@@ -28,6 +28,7 @@ const Home = () => {
     fontFamily: "'Josefin Sans', sans-serif",
     color: "#754C78",
     textShadow: "2px 3px 8px gray",
+    fontWeight: "bold",
   };
 
   return (
