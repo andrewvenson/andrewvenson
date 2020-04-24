@@ -12,6 +12,7 @@ const Portfolio = () => {
   let lorem = "Pending creation...";
   const projectContainer = {
     marginTop: "30px",
+    marginBottom: "65px",
   };
   const colStyling = {
     padding: "0px",
