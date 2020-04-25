@@ -36,8 +36,8 @@ const ContactNav = () => {
   };
 
   return (
-    <div>
-      <div style={cnav}>
+    <section>
+      <div className="contactNav" style={cnav}>
         <span
           onClick={() => setActiveState(true)}
           style={active ? selectedNavItemStyle : defaultNavItemStyle}
@@ -52,7 +52,7 @@ const ContactNav = () => {
         </span>
       </div>
       <ContactForm active={active} />
-    </div>
+    </section>
   );
 };
 

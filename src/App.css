@@ -118,6 +118,10 @@ body {
   .homeTitle {
     font-size: 27px !important;
   }
+
+  .contactNav {
+    font-size: 13px !important;
+  }
 }
 
 .infoBox:hover {
