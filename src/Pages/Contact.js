@@ -2,7 +2,6 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Head from "../components/Head";
 import ContactNav from "../components/ContactNav";
-import AboutForm from "../components/AboutForm";
 
 const title = {
   display: "flex",

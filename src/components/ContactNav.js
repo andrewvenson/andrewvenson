@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ContactForm from "./ContactForm";
 
 const ContactNav = () => {
   const cnav = {
@@ -35,19 +36,22 @@ const ContactNav = () => {
   };
 
   return (
-    <div style={cnav}>
-      <span
-        onClick={() => setActiveState(true)}
-        style={active ? selectedNavItemStyle : defaultNavItemStyle}
-      >
-        I want to collaborate
-      </span>
-      <span
-        onClick={() => setActiveState(false)}
-        style={active ? defaultNavItemStyle : selectedNavItemStyle}
-      >
-        I want you to build me something
-      </span>
+    <div>
+      <div style={cnav}>
+        <span
+          onClick={() => setActiveState(true)}
+          style={active ? selectedNavItemStyle : defaultNavItemStyle}
+        >
+          I want to collaborate
+        </span>
+        <span
+          onClick={() => setActiveState(false)}
+          style={active ? defaultNavItemStyle : selectedNavItemStyle}
+        >
+          I want you to build me something
+        </span>
+      </div>
+      <ContactForm active={active} />
     </div>
   );
 };
