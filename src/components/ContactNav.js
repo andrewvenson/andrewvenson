@@ -1,33 +1,50 @@
-import React from "react";
+import React, { useState } from "react";
 
 const ContactNav = () => {
   const cnav = {
     display: "flex",
     justifyContent: "center",
   };
+
+  let [active, setActive] = useState(true);
+
+  const setActiveState = (active) => {
+    setActive(active);
+  };
+
+  const defaultNavItemStyle = {
+    margin: "5px",
+    border: "1px solid #754C78",
+    borderRadius: "5px",
+    padding: "5px",
+    backgroundColor: "whitesmoke",
+    color: "#754C78",
+    textDecoration: "none",
+    cursor: "pointer",
+  };
+
+  const selectedNavItemStyle = {
+    margin: "5px",
+    border: "1px solid #754C78",
+    borderRadius: "5px",
+    padding: "5px",
+    backgroundColor: "#754C78",
+    color: "whitesmoke",
+    textDecoration: "none",
+    cursor: "pointer",
+  };
+
   return (
     <div style={cnav}>
       <span
-        style={{
-          margin: "5px",
-          border: "1px solid lightgray",
-          borderRadius: "5px",
-          padding: "5px",
-          backgroundColor: "#754C78",
-          color: "whitesmoke",
-        }}
+        onClick={() => setActiveState(true)}
+        style={active ? selectedNavItemStyle : defaultNavItemStyle}
       >
         I want to collaborate
       </span>
       <span
-        style={{
-          margin: "5px",
-          border: "1px solid #754C78",
-          borderRadius: "5px",
-          padding: "5px",
-          backgroundColor: "whitesmoke",
-          color: "#754C78",
-        }}
+        onClick={() => setActiveState(false)}
+        style={active ? defaultNavItemStyle : selectedNavItemStyle}
       >
         I want you to build me something
       </span>

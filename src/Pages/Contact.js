@@ -20,7 +20,6 @@ const Contact = () => {
         <Head />
         <h5 style={title}>Andrew Estefan Venson IV</h5>
         <ContactNav />
-        <CollaborateForm />
       </Container>
     </div>
   );
