@@ -1,7 +1,7 @@
 import React from "react";
 import { Form } from "react-bootstrap";
 
-const CollaborateForm = () => {
+const AboutForm = () => {
   const collabFormContainer = {
     justifyContent: "center",
     display: "flex",
@@ -38,4 +38,4 @@ const CollaborateForm = () => {
   );
 };
 
-export default CollaborateForm;
+export default AboutForm;
