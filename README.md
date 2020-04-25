@@ -1,5 +1,6 @@
 # Portfolio
-This is my portfolio, in which upon writing helped me conceptualize react.js props, components and a little bit of state.
+
+This is my portfolio, in which upon writing helped me conceptualize React.js props, components and a little bit of state.
 Written in Html5, React.js, React-Bootstrap, & Css.
 
 Here's the link to my portfolio -> https://andrewvenson.herokuapp.com
