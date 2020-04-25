@@ -1,5 +1,5 @@
 import React from "react";
-import { Form } from "react-bootstrap";
+import { Form, Button } from "react-bootstrap";
 
 const ContactForm = (props) => {
   const collabFormContainer = {
@@ -8,7 +8,7 @@ const ContactForm = (props) => {
   };
 
   return (
-    <div style={collabFormContainer}>
+    <article style={collabFormContainer}>
       <Form style={{ width: "500px", marginTop: "25px" }}>
         <Form.Group controlId="exampleForm.ControlInput1">
           <Form.Control type="text" placeholder="Name ..." />
@@ -20,11 +20,20 @@ const ContactForm = (props) => {
           <Form.Control
             as="textarea"
             rows="3"
-            placeholder="Description of collaboration project ..."
+            placeholder={
+              props.active
+                ? "Description of collaboration project ..."
+                : "Description of the project you want built ..."
+            }
           />
         </Form.Group>
+        <div style={{ display: "flex", justifyContent: "flex-end" }}>
+          <Button variant="dark">
+            {props.active ? "Collaborate" : "Build"}
+          </Button>
+        </div>
       </Form>
-    </div>
+    </article>
   );
 };
 
