@@ -12,7 +12,7 @@ const AboutMe = () => {
     color: "#6b6b6b",
   };
   return (
-    <section>
+    <article>
       <p className="AboutMeText" style={AboutMeText}>
         My name is Andrew, a self taught developer that just cant shy away from
         a good learning opportunity. I fell in love with the art of coding from
@@ -23,7 +23,7 @@ const AboutMe = () => {
         style. My primary focus right now is web development, and those are the
         languages to the right that I can provide help in.
       </p>
-    </section>
+    </article>
   );
 };
 
