@@ -80,7 +80,7 @@ const InfoBox = () => {
               alt="Home"
             />
           </span>{" "}
-          in the bottom left corner to view my{" "}
+          in the left corner to view my{" "}
           <span style={{ fontWeight: "bold", color: "black" }}>RESUME</span>.
           Last and least
           <span style={direction}>
