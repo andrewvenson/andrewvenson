@@ -5,6 +5,7 @@ import Head from "../components/Head";
 import homeRun from "../images/home-run.png";
 import RightArrow from "../images/right-arrow.png";
 import LeftArrow from "../images/left-arrow.png";
+import Resume from "../images/resume.PNG";
 
 const Home = () => {
   const infoBox = {
@@ -54,7 +55,11 @@ const Home = () => {
                   />
                 </span>
               </span>
-              to view <span style={{ fontWeight: "bold" }}>my projects</span>.
+              to view my{" "}
+              <span style={{ fontWeight: "bold", color: "black" }}>
+                PROJECTS
+              </span>
+              .
               <span style={direction}>
                 {" "}
                 Click the RIGHT
@@ -68,12 +73,17 @@ const Home = () => {
                 </span>
               </span>
               to get a little information{" "}
-              <span style={{ fontWeight: "bold" }}>about me</span>. If you would
-              like to <span style={{ fontWeight: "bold" }}>contact me</span>{" "}
+              <span style={{ fontWeight: "bold", color: "black" }}>
+                ABOUT ME
+              </span>
+              . If you would like to{" "}
+              <span style={{ fontWeight: "bold", color: "black" }}>
+                CONTACT ME
+              </span>{" "}
               just
               <span style={direction}>
                 {" "}
-                click my face{" "}
+                click my{" "}
                 <span>
                   <img
                     src={profilePic}
@@ -87,16 +97,27 @@ const Home = () => {
                   .
                 </span>
               </span>{" "}
-              Oh and
-              <span style={direction}> click the HOME</span>{" "}
+              <span style={direction}> Click the</span>{" "}
               <span>
                 <img
-                  src={homeRun}
-                  style={{ width: "30px", height: "30px" }}
+                  src={Resume}
+                  style={{ width: "30px", height: "30px", borderRadius: "5px" }}
                   alt="Home"
                 />
               </span>{" "}
-              in the bottom right corner to get back here!
+              in the bottom left corner to view my{" "}
+              <span style={{ fontWeight: "bold", color: "black" }}>RESUME</span>
+              . Last and least
+              <span style={direction}>
+                {" "}
+                click the HOME{" "}
+                <img
+                  src={homeRun}
+                  style={{ width: "30px", height: "30px", borderRadius: "5px" }}
+                  alt="Home"
+                />
+              </span>{" "}
+              in the right corner to get back here :)
             </p>
           </div>
         </div>
