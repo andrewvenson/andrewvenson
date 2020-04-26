@@ -19,7 +19,7 @@ const Portfolio = () => {
     margin: "0px",
   };
   return (
-    <div>
+    <div style={{ paddingBottom: "100px" }}>
       <Container>
         <Head />
         <Title name="Projects" />
