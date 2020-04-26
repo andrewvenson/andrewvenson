@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { Modal, Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 import resume from "../images/resume.PNG";
 
 const Resume = () => {
@@ -8,7 +7,7 @@ const Resume = () => {
 
   return (
     <>
-      <Link onClick={() => setLgShow(true)}>
+      <a href="" onClick={() => setLgShow(true)}>
         <img
           className="resume"
           src={resume}
@@ -20,7 +19,7 @@ const Resume = () => {
           }}
           alt="Resume"
         />
-      </Link>
+      </a>
 
       <Modal
         size="lg"
