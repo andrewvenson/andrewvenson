@@ -110,6 +110,7 @@ body {
   .infoBoxContainer {
     display: flex !important;
     justify-content: center !important;
+    margin-bottom: 80px;
   }
 
   .emailForm {
