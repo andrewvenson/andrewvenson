@@ -15,7 +15,7 @@ const Home = () => {
     borderRadius: "10px",
     border: "1px solid lightgray",
     padding: "10px",
-    marginTop: "50px",
+    marginTop: "25px",
     boxShadow: "3px 5px 8px lightgray",
   };
 
@@ -76,6 +76,7 @@ const Home = () => {
             </span>
           </a>
         </div>
+        <hr style={{ color: "black", width: "200px" }} />
         <div className="infoBoxContainer">
           <div className="infoBox" style={infoBox}>
             <p>
