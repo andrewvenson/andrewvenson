@@ -110,7 +110,7 @@ const Home = () => {
               . Last and least
               <span style={direction}>
                 {" "}
-                click the HOME{" "}
+                click the{" "}
                 <img
                   src={homeRun}
                   style={{ width: "30px", height: "30px", borderRadius: "5px" }}
