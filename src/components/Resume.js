@@ -4,14 +4,11 @@ import { Modal, Button } from "react-bootstrap";
 import resume from "../images/resume.PNG";
 
 const Resume = () => {
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const [lgShow, setLgShow] = useState(false);
 
   return (
     <>
-      <Link onClick={handleShow}>
+      <Link onClick={() => setLgShow(true)}>
         <img
           className="resume"
           src={resume}
@@ -25,19 +22,16 @@ const Resume = () => {
         />
       </Link>
 
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
+      <Modal
+        size="lg"
+        show={lgShow}
+        onHide={() => setLgShow(false)}
+        aria-labelledby="example-modal-sizes-title-lg"
+      >
+        <Modal.Header closeButton></Modal.Header>
+        <Modal.Body>
+          <img src={resume} style={{ width: "100%" }} alt="Resume" />
+        </Modal.Body>
       </Modal>
     </>
   );
