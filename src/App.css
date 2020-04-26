@@ -11,6 +11,26 @@ body {
   position: fixed;
   bottom: 10px;
   right: 10px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgb(155, 155, 155)) !important;
+  filter: drop-shadow(5px 5px 5px rgb(155, 155, 155)) !important;
+}
+
+.home:hover {
+  -webkit-filter: drop-shadow(5px 5px 5px rgb(110, 110, 110)) !important;
+  filter: drop-shadow(5px 5px 5px rgb(107, 107, 107)) !important;
+}
+
+.resume {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgb(155, 155, 155)) !important;
+  filter: drop-shadow(5px 5px 5px rgb(155, 155, 155)) !important;
+}
+
+.resume:hover {
+  -webkit-filter: drop-shadow(5px 5px 5px rgb(110, 110, 110)) !important;
+  filter: drop-shadow(5px 5px 5px rgb(107, 107, 107)) !important;
 }
 
 .navLink {
@@ -130,16 +150,6 @@ body {
 
 .AboutMeText:hover {
   box-shadow: 5px 8px 16px gray !important;
-}
-
-.home {
-  -webkit-filter: drop-shadow(5px 5px 5px rgb(155, 155, 155)) !important;
-  filter: drop-shadow(5px 5px 5px rgb(155, 155, 155)) !important;
-}
-
-.home:hover {
-  -webkit-filter: drop-shadow(5px 5px 5px rgb(110, 110, 110)) !important;
-  filter: drop-shadow(5px 5px 5px rgb(107, 107, 107)) !important;
 }
 
 .langs img {
