@@ -6,6 +6,8 @@ import homeRun from "../images/home-run.png";
 import RightArrow from "../images/right-arrow.png";
 import LeftArrow from "../images/left-arrow.png";
 import Resume from "../images/resume.PNG";
+import Github from "../images/GitHub-Mark-32px.png";
+import Linkedin from "../images/linkedin.png";
 
 const Home = () => {
   const infoBox = {
@@ -39,6 +41,41 @@ const Home = () => {
         <h1 className="homeTitle" style={title}>
           Andrew Estefan Venson IV
         </h1>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            flexDirection: "column",
+          }}
+        >
+          <a
+            style={{ margin: "5px" }}
+            href="https://github.com/andrewvenson"
+            target="_blank"
+          >
+            <span>
+              <img
+                src={Github}
+                style={{ width: "32px", height: "32px", marginRight: "3px" }}
+              />
+            </span>
+            <span style={{ color: "#754C78" }}>
+              https://github.com/andrewvenson
+            </span>
+          </a>
+          <a
+            style={{ margin: "5px" }}
+            href="https://www.linkedin.com/in/andrew-venson-b6935a118/"
+            target="_blank"
+          >
+            <span>
+              <img src={Linkedin} style={{ width: "32px", height: "32px" }} />
+            </span>
+            <span style={{ color: "#754C78" }}>
+              https://www.linkedin.com/in/andrew-venson-b6935a118/
+            </span>
+          </a>
+        </div>
         <div className="infoBoxContainer">
           <div className="infoBox" style={infoBox}>
             <p>
