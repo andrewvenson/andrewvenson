@@ -7,7 +7,7 @@ const Resume = () => {
 
   return (
     <>
-      <a href="" onClick={() => setLgShow(true)}>
+      <span onClick={() => setLgShow(true)}>
         <img
           className="resume"
           src={resume}
@@ -19,7 +19,7 @@ const Resume = () => {
           }}
           alt="Resume"
         />
-      </a>
+      </span>
 
       <Modal
         size="lg"

@@ -16,11 +16,13 @@ const GitinLinks = () => {
         style={{ margin: "5px" }}
         href="https://github.com/andrewvenson"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <span>
           <img
             src={Github}
             style={{ width: "32px", height: "32px", marginRight: "3px" }}
+            alt="Github"
           />
         </span>
         <span style={{ color: "#754C78" }}>
@@ -31,9 +33,14 @@ const GitinLinks = () => {
         style={{ margin: "5px" }}
         href="https://www.linkedin.com/in/andrew-venson-b6935a118/"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <span>
-          <img src={Linkedin} style={{ width: "32px", height: "32px" }} />
+          <img
+            src={Linkedin}
+            style={{ width: "32px", height: "32px" }}
+            alt="Linkedin"
+          />
         </span>
         <span style={{ color: "#754C78" }}>
           https://www.linkedin.com/in/andrew-venson-b6935a118/
