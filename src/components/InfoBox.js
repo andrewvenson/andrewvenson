@@ -16,7 +16,7 @@ const InfoBox = () => {
     borderRadius: "10px",
     border: "1px solid lightgray",
     padding: "10px",
-    marginTop: "25px",
+    marginTop: "18px",
     boxShadow: "3px 5px 8px lightgray",
   };
 

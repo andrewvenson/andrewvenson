@@ -5,6 +5,7 @@ import Linkedin from "../images/linkedin.png";
 const GitinLinks = () => {
   return (
     <div
+      className="GitinLinks"
       style={{
         display: "flex",
         alignItems: "center",

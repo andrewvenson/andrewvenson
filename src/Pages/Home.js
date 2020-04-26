@@ -22,7 +22,6 @@ const Home = () => {
           Andrew Estefan Venson IV
         </h1>
         <hr style={{ color: "black", width: "200px" }} />
-
         <GitinLinks />
         <hr style={{ color: "black", width: "200px" }} />
         <InfoBox />

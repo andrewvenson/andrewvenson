@@ -130,7 +130,7 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
   .myLangy {
     font-size: 10px !important;
   }
@@ -141,6 +141,15 @@ body {
 
   .contactNav {
     font-size: 13px !important;
+  }
+
+  .GitinLinks a span {
+    font-size: 13px !important;
+  }
+
+  .GitinLinks a img {
+    width: 20px !important;
+    height: 20px !important;
   }
 }
 
