@@ -23,6 +23,7 @@ const Portfolio = () => {
       <Container>
         <Head />
         <Title name="Projects" />
+        <hr style={{ color: "black", width: "200px" }} />
         <Row style={projectContainer}>
           <Col style={colStyling}>
             <PortfolioProjects

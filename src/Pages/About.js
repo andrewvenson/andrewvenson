@@ -11,6 +11,8 @@ const About = () => {
       <Container>
         <Head />
         <Title name="About me" />
+        <hr style={{ color: "black", width: "200px" }} />
+
         <div
           style={{
             display: "flex",
