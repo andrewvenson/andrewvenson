@@ -40,6 +40,8 @@ const Home = () => {
         <h1 className="homeTitle" style={title}>
           Andrew Estefan Venson IV
         </h1>
+        <hr style={{ color: "black", width: "200px" }} />
+
         <GitinLinks />
         <hr style={{ color: "black", width: "200px" }} />
         <div className="infoBoxContainer">
