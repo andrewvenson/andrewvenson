@@ -7,76 +7,37 @@ import LeftArrow from "./LeftArrow";
 import RightArrow from "./RightArrow";
 
 const Head = () => {
+  let headSize = "100px";
+  let justifyContent = "center";
+
+  if (window.location.pathname === "/projects") {
+    headSize = "100px";
+    justifyContent = "flex-start";
+  } else if (window.location.pathname === "/about") {
+    justifyContent = "flex-end";
+  } else if (window.location.pathname === "/contact") {
+    headSize = "150px";
+  } else if (window.location.pathname === "/") {
+    headSize = "200px";
+  }
+
   let portfolioPicContainer = {
     display: "flex",
-    justifyContent: "center",
+    justifyContent: `${justifyContent}`,
     alignItems: "center",
     marginTop: "20px",
   };
 
   let portfolioPic = {
     borderRadius: "50%",
-    height: "200px",
-    width: "200px",
+    height: `${headSize}`,
+    width: `${headSize}`,
     border: "1px solid lightgray",
     backgroundColor: "lightgray",
     boxShadow: "3px 5px 8px gray",
     background: `url(${profilePic})`,
     backgroundSize: "cover",
   };
-
-  if (window.location.pathname === "/projects") {
-    portfolioPicContainer = {
-      display: "flex",
-      justifyContent: "flex-start",
-      alignItems: "center",
-      marginTop: "10px",
-    };
-    portfolioPic = {
-      borderRadius: "50%",
-      height: "100px",
-      width: "100px",
-      border: "1px solid lightgray",
-      backgroundColor: "lightgray",
-      boxShadow: "3px 5px 8px gray",
-      background: `url(${profilePic})`,
-      backgroundSize: "cover",
-    };
-  } else if (window.location.pathname === "/about") {
-    portfolioPicContainer = {
-      display: "flex",
-      justifyContent: "flex-end",
-      alignItems: "center",
-      marginTop: "10px",
-    };
-    portfolioPic = {
-      borderRadius: "50%",
-      height: "100px",
-      width: "100px",
-      border: "1px solid lightgray",
-      backgroundColor: "lightgray",
-      boxShadow: "3px 5px 8px gray",
-      background: `url(${profilePic})`,
-      backgroundSize: "cover",
-    };
-  } else if (window.location.pathname === "/contact") {
-    portfolioPicContainer = {
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      marginTop: "10px",
-    };
-    portfolioPic = {
-      borderRadius: "50%",
-      height: "150px",
-      width: "150px",
-      border: "1px solid lightgray",
-      backgroundColor: "lightgray",
-      boxShadow: "3px 5px 8px gray",
-      background: `url(${profilePic})`,
-      backgroundSize: "cover",
-    };
-  }
 
   return (
     <Container>
