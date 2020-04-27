@@ -52,6 +52,8 @@ const ContactNav = () => {
           I want you to build me something
         </span>
       </div>
+      <hr style={{ color: "black", width: "200px" }} />
+
       <ContactForm active={active} />
     </section>
   );

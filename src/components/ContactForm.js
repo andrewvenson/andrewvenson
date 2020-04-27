@@ -11,7 +11,7 @@ const ContactForm = (props) => {
   // Changes text depending on state -> props
   return (
     <article style={collabFormContainer}>
-      <Form style={{ width: "500px", marginTop: "25px" }}>
+      <Form style={{ width: "500px" }}>
         <Form.Group controlId="exampleForm.ControlInput1">
           <Form.Control type="text" placeholder="Name ..." />
         </Form.Group>
