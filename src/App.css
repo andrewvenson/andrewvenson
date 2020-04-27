@@ -97,6 +97,12 @@ body {
   color: #6b6b6b;
 }
 
+.infoBoxContainer {
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 80px;
+}
+
 @media (max-width: 991px) {
   .divider {
     display: none !important;
@@ -105,12 +111,6 @@ body {
   .navLink {
     margin: 10px 0px 10px 0px;
     padding-left: 10px !important;
-  }
-
-  .infoBoxContainer {
-    display: flex !important;
-    justify-content: center !important;
-    margin-bottom: 80px;
   }
 
   .emailForm {
