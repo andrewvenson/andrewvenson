@@ -1,6 +1,8 @@
+// Resume component
 import React, { useState } from "react";
-import { Modal } from "react-bootstrap";
-import resume from "../images/resume.PNG";
+import { Modal, Button } from "react-bootstrap";
+import ResumeImg from "../images/resume.PNG";
+import ResumePdf from "../pdf/MyResume.pdf";
 
 const Resume = () => {
   const [lgShow, setLgShow] = useState(false);
@@ -10,7 +12,7 @@ const Resume = () => {
       <span onClick={() => setLgShow(true)}>
         <img
           className="resume"
-          src={resume}
+          src={ResumeImg}
           style={{
             width: "50px",
             height: "50px",
@@ -28,9 +30,17 @@ const Resume = () => {
         onHide={() => setLgShow(false)}
         aria-labelledby="example-modal-sizes-title-lg"
       >
-        <Modal.Header closeButton></Modal.Header>
+        <Modal.Header closeButton>
+          <Button
+            href={ResumePdf}
+            style={{ backgroundColor: "purple", borderColor: "purple" }}
+          >
+            Download as PDF
+          </Button>
+        </Modal.Header>
         <Modal.Body>
-          <img src={resume} style={{ width: "100%" }} alt="Resume" />
+          <img src={ResumeImg} style={{ width: "100%" }} alt="Resume" />
+          {/* <Document file={ResumePdf} /> */}
         </Modal.Body>
       </Modal>
     </>
