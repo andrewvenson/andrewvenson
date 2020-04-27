@@ -13,7 +13,6 @@ const Portfolio = () => {
     "PyCDV is a website that compiles statistics, facts, and information about our current COVID-19 pandemic";
   let lorem = "Pending creation...";
   const projectContainer = {
-    marginTop: "30px",
     marginBottom: "65px",
   };
   const colStyling = {

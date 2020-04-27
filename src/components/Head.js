@@ -24,7 +24,7 @@ const Head = () => {
     display: "flex",
     justifyContent: `${justifyContent}`,
     alignItems: "center",
-    marginTop: "20px",
+    marginTop: "15px",
   };
 
   let portfolioPic = {
