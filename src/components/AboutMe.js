@@ -1,3 +1,4 @@
+// About me text Component
 import React from "react";
 
 const AboutMe = () => {

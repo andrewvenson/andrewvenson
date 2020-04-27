@@ -1,3 +1,4 @@
+// Main nav
 import React from "react";
 import NameLogo from "./NameLogo";
 import NavLinks from "./NavLinks";

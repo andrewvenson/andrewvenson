@@ -1,3 +1,4 @@
+// Nav link for nav component
 import React from "react";
 import { NavLink } from "react-router-dom";
 

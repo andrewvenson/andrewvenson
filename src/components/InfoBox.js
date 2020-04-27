@@ -1,3 +1,4 @@
+// Info box = directions on navigation on home page
 import React from "react";
 import profilePic from "../images/profilePic.png";
 import homeRun from "../images/home-run.png";

@@ -1,3 +1,4 @@
+// Portfolio Page
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Head from "../components/Head";
@@ -7,6 +8,7 @@ import PyCdv from "../images/pycdv.PNG";
 import Tbc from "../images/tbc.jpg";
 
 const Portfolio = () => {
+  // projecttext
   let ad =
     "PyCDV is a website that compiles statistics, facts, and information about our current COVID-19 pandemic";
   let lorem = "Pending creation...";

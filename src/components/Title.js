@@ -1,3 +1,4 @@
+// Titles for each page except home
 import React from "react";
 
 const Title = (props) => {

@@ -21,6 +21,7 @@ const Resume = () => {
         />
       </span>
 
+      {/* React Bootstrap modal shows resume on click */}
       <Modal
         size="lg"
         show={lgShow}

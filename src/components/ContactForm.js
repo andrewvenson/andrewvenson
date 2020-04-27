@@ -1,3 +1,4 @@
+// Contact Form on Contact page
 import React from "react";
 import { Form, Button } from "react-bootstrap";
 
@@ -7,6 +8,7 @@ const ContactForm = (props) => {
     display: "flex",
   };
 
+  // Changes text depending on state -> props
   return (
     <article style={collabFormContainer}>
       <Form style={{ width: "500px", marginTop: "25px" }}>

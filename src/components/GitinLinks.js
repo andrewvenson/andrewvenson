@@ -1,3 +1,4 @@
+// Github & Linkedin links on home page
 import React from "react";
 import Github from "../images/GitHub-Mark-32px.png";
 import Linkedin from "../images/linkedin.png";
