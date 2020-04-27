@@ -1,3 +1,4 @@
+// Contact Page
 import React from "react";
 import { Container } from "react-bootstrap";
 import Head from "../components/Head";
@@ -14,7 +15,7 @@ const title = {
 
 const Contact = () => {
   return (
-    <section>
+    <section style={{ paddingBottom: "80px" }}>
       <Container>
         <Head />
         <h5 style={title}>Andrew Estefan Venson IV</h5>

@@ -1,3 +1,4 @@
+// Home Page
 import React from "react";
 import { Container } from "react-bootstrap";
 import Head from "../components/Head";
@@ -15,7 +16,7 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <div style={{ paddingBottom: "80px" }}>
       <Container>
         <Head />
         <h1 className="homeTitle" style={title}>

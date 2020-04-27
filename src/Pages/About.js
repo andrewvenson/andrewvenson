@@ -1,3 +1,4 @@
+// About Page
 import React from "react";
 import { Container } from "react-bootstrap";
 import Head from "../components/Head";
@@ -7,7 +8,7 @@ import AboutLang from "../components/AboutLang";
 
 const About = () => {
   return (
-    <div>
+    <div style={{ paddingBottom: "80px" }}>
       <Container>
         <Head />
         <Title name="About me" />
