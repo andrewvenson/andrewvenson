@@ -1,5 +1,8 @@
 // Main App
 import React from "react";
+// should have imported the reset.css from the get go, I'll implement soon
+// import "./reset.css";
+
 import "./App.css";
 import NavComponent from "./components/NavComponent";
 import About from "./Pages/About";
