@@ -1,3 +1,4 @@
+// Language images component
 import React from "react";
 import ReactLogo from "../images/react.png";
 import PythonLogo from "../images/python.png";

@@ -1,3 +1,4 @@
+// Left arrow on head
 import React from "react";
 import { Link } from "react-router-dom";
 import LeftArrowPic from "../images/left-arrow.png";
