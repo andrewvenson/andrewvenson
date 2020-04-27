@@ -33,9 +33,13 @@ const Resume = () => {
         <Modal.Header closeButton>
           <Button
             href={ResumePdf}
-            style={{ backgroundColor: "purple", borderColor: "purple" }}
+            style={{
+              backgroundColor: "purple",
+              borderColor: "purple",
+              boxShadow: "3px 7px 8px lightgray",
+            }}
           >
-            Download as PDF
+            Show as PDF
           </Button>
         </Modal.Header>
         <Modal.Body>
