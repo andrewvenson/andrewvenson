@@ -11,7 +11,6 @@ const Head = () => {
   let justifyContent = "center";
 
   if (window.location.pathname === "/projects") {
-    headSize = "100px";
     justifyContent = "flex-start";
   } else if (window.location.pathname === "/about") {
     justifyContent = "flex-end";
