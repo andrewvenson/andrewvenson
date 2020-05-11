@@ -5,7 +5,7 @@ import Head from "../components/Head";
 import Title from "../components/Title";
 import PortfolioProjects from "../components/PortfolioProjects";
 import PyCdv from "../images/pycdv.PNG";
-import Tbc from "../images/tbc.jpg";
+import JsCodeQuiz from "../images/codequizhome.PNG";
 import SecurePw from "../images/pwgenerated.PNG";
 
 const Portfolio = () => {
@@ -16,6 +16,9 @@ const Portfolio = () => {
 
   let securepwgenerator =
     "An intuitive password generator application that creates a random secure string of characters based on your required criteria.";
+
+  let codequiz =
+    "This application sets a timer for 75 seconds for you to answer as many javascript related multiple choice questions before the timer runs out.";
   const projectContainer = {
     marginBottom: "65px",
   };
@@ -48,9 +51,10 @@ const Portfolio = () => {
           </Col>
           <Col style={colStyling}>
             <PortfolioProjects
-              appImage={Tbc}
-              appName="To Be Continued"
-              appDetails={lorem}
+              appUrl="https://jscodequiz.herokuapp.com"
+              appImage={JsCodeQuiz}
+              appName="JS Code Quiz"
+              appDetails={codequiz}
             />
           </Col>
         </Row>
