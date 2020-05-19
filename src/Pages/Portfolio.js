@@ -5,6 +5,8 @@ import Head from "../components/Head";
 import Title from "../components/Title";
 import PortfolioProjects from "../components/PortfolioProjects";
 import PyCdv from "../images/pycdv.PNG";
+import DayAdd from "../images/dayadd.PNG";
+
 import JsCodeQuiz from "../images/codequizhome.PNG";
 import SecurePw from "../images/pwgenerated.PNG";
 
@@ -19,6 +21,10 @@ const Portfolio = () => {
 
   let codequiz =
     "This application sets a timer for 75 seconds for you to answer as many javascript related multiple choice questions before the timer runs out.";
+
+  let dayplannerplus =
+    "A calendar application to add, edit, and delete events for the day.";
+
   const projectContainer = {
     marginBottom: "65px",
   };
@@ -33,6 +39,14 @@ const Portfolio = () => {
         <Title name="Projects" />
         <hr style={{ color: "black", width: "200px" }} />
         <Row style={projectContainer}>
+          <Col style={colStyling}>
+            <PortfolioProjects
+              appUrl="https://dayplannerplus.herokuapp.com"
+              appName="Dayplanner+"
+              appDetails={dayplannerplus}
+              appImage={DayAdd}
+            />
+          </Col>
           <Col style={colStyling}>
             <PortfolioProjects
               appUrl="https://pycdv.com"
