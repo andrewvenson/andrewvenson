@@ -31,8 +31,39 @@ const PortfolioProjects = (props) => {
       >
         <h4>{props.appName}</h4>
       </a>
+      <a
+        style={{
+          color: "rgb(121, 100, 121)",
+          position: "absolute",
+          right: 5,
+          top: -2,
+        }}
+        href={props.gitUrl}
+        className="projectUrl"
+      >
+        <img
+          src="https://octodex.github.com/images/daftpunktocat-thomas.gif"
+          style={{
+            height: "50px",
+            width: "50px",
+            filter: "drop-shadow(5px 5px 5px gray)",
+          }}
+          alt="github"
+        />
+      </a>
+
       <img style={projectImage} src={props.appImage} alt="project" />
-      <p style={{ color: "gray" }}>{props.appDetails}</p>
+      <p
+        style={{
+          color: "gray",
+          fontSize:
+            props.appName === "pubIO" || props.appName === "Weatherrecast"
+              ? "15px"
+              : "16px",
+        }}
+      >
+        {props.appDetails}
+      </p>
       <Link
         to="/contact"
         style={{
