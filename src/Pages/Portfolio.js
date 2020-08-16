@@ -8,6 +8,7 @@ import PyCdv from "../images/pycdv.PNG";
 import DayAdd from "../images/dayadd.PNG";
 import PubIo from "../images/pubioimages.png";
 import WeatherRecast from "../images/weatherrecast.PNG";
+import Autoban from "../images/projectBoard.png";
 
 import JsCodeQuiz from "../images/codequizhome.PNG";
 import SecurePw from "../images/pwgenerated.PNG";
@@ -32,6 +33,8 @@ const Portfolio = () => {
   let pubio =
     "pubIO is a mobile app built in React Native that provides users with a fun, social experience by marketing curated bar & brewery crawls to the user with special drink discounts.";
 
+  let autoban =
+    "autoban is a an app that allows users to create kanban boards; with access to create teams.";
   const projectContainer = {
     marginBottom: "65px",
   };
@@ -53,6 +56,15 @@ const Portfolio = () => {
               appDetails={pubio}
               appImage={PubIo}
               gitUrl="https://github.com/pubIO-2020/pubIO"
+            />
+          </Col>
+          <Col style={colStyling}>
+            <PortfolioProjects
+              appUrl="https://autobanprod.herokuapp.com"
+              appName="Autoban"
+              appDetails={autoban}
+              appImage={Autoban}
+              gitUrl="https://github.com/TheAutobanApp/Autoban"
             />
           </Col>
           <Col style={colStyling}>
