@@ -32,7 +32,7 @@ const GitinLinks = () => {
       </a>
       <a
         style={{ margin: "5px" }}
-        href="https://www.linkedin.com/in/andrew-venson-b6935a118/"
+        href="https://www.linkedin.com/in/andrew-venson-iv-b6935a118/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -44,7 +44,7 @@ const GitinLinks = () => {
           />
         </span>
         <span style={{ color: "#754C78" }}>
-          https://www.linkedin.com/in/andrew-venson-b6935a118/
+          https://www.linkedin.com/in/andrew-venson-iv-b6935a118/
         </span>
       </a>
     </div>
