@@ -46,6 +46,8 @@ const AboutLang = () => {
           alt="MySql"
         />
       </section>
+
+      <hr style={{ color: "black", width: "200px" }} />
       <section>
         <p
           className="myLangy"
