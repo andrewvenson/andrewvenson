@@ -42,11 +42,11 @@ const ContactForm = (props) => {
       contact.phone !== "" &&
       contact.company !== ""
     ) {
+      showError(false);
       axios
-        .post("http://localhost:5000/post/sendemail", contact)
+        .post("https://andrewvenson.herokuapp.com/post/sendemail", contact)
         .then((response) => {
           showLoader(false);
-          showError(false);
           showSuccess(true);
           setContact(initContact);
           setTimeout(showSuccess(false), 3000);
