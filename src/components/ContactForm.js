@@ -44,7 +44,7 @@ const ContactForm = (props) => {
     ) {
       showError(false);
       axios
-        .post("https://andrewvenson.herokuapp.com/post/sendemail", contact)
+        .post("https://vensonemail.herokuapp.com/post/sendemail", contact)
         .then((response) => {
           showLoader(false);
           showSuccess(true);
