@@ -49,7 +49,9 @@ const ContactForm = (props) => {
           showLoader(false);
           showSuccess(true);
           setContact(initContact);
-          setTimeout(showSuccess(false), 3000);
+          setTimeout(() => {
+            showSuccess(false);
+          }, 7000);
         });
     } else {
       showError(true);
