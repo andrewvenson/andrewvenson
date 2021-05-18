@@ -15,11 +15,16 @@ const About = () => {
         <hr style={{ color: "black", width: "200px" }} />
 
         <div
+          className="desktopAbout"
           style={{
             display: "flex",
             justifyContent: "space-around",
           }}
         >
+          <AboutMe />
+          <AboutLang />
+        </div>
+        <div style={{ display: "none" }} className="mobileAbout">
           <AboutMe />
           <AboutLang />
         </div>

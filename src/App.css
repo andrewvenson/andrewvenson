@@ -168,7 +168,7 @@ body {
 }
 
 .langs {
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
 .portProj:hover {
@@ -179,4 +179,13 @@ body {
 .langs img:hover {
   -webkit-filter: drop-shadow(8px 8px 8px rgb(75, 75, 75)) !important;
   filter: drop-shadow(8px 8px 8px rgb(75, 75, 75)) !important;
+}
+
+@media (max-width: 770px) {
+  .mobileAbout {
+    display: block !important;
+  }
+  .desktopAbout {
+    display: none !important;
+  }
 }

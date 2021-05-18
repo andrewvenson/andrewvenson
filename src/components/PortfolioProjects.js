@@ -56,10 +56,8 @@ const PortfolioProjects = (props) => {
       <p
         style={{
           color: "gray",
-          fontSize:
-            props.appName === "pubIO" || props.appName === "Weatherrecast"
-              ? "15px"
-              : "16px",
+          marginTop: "5px",
+          fontSize: "16px",
         }}
       >
         {props.appDetails}

@@ -48,7 +48,7 @@ const AboutLang = () => {
       </section>
 
       <hr style={{ color: "black", width: "200px" }} />
-      <section>
+      <section style={{ marginTop: "20px" }}>
         <p
           className="myLangy"
           style={{ color: "gray", display: "flex", justifyContent: "center" }}

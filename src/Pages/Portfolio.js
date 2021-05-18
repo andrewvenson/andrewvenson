@@ -9,32 +9,34 @@ import DayAdd from "../images/dayadd.PNG";
 import PubIo from "../images/pubioimages.png";
 import WeatherRecast from "../images/weatherrecast.PNG";
 import Autoban from "../images/projectBoard.png";
+import PritchardElectric from "../images/pritchardElectric.png";
 
 import JsCodeQuiz from "../images/codequizhome.PNG";
 import SecurePw from "../images/pwgenerated.PNG";
 
 const Portfolio = () => {
   // projecttext
-  let pycdv =
-    "PyCDV is a website that compiles statistics, facts, and information about our current COVID-19 pandemic";
+  let pe = "Pritchard Electric company website.";
 
-  let securepwgenerator =
-    "An intuitive password generator application that creates a random secure string of characters based on your required criteria.";
+  let pycdv =
+    "PyCDV is a website that compiles statistics, facts, and information about the COVID-19 pandemic.";
+
+  let securepwgenerator = "Create secure passwords with SecurePWGenerator.";
 
   let codequiz =
-    "This application sets a timer for 75 seconds for you to answer as many javascript related multiple choice questions before the timer runs out.";
+    "Test your knowledge of Javascript with this multiple choice style quiz before the timer runs out.";
 
   let dayplannerplus =
     "A calendar application to add, edit, and delete events for the day.";
 
   let weatherrecast =
-    "Weatherrecast is an application built using ReactJS, HTML, CSS, & Firebase. This application allows you to search for any city and display current weather forecast along with the next 5 days forecast.";
+    "Search for any city and display current and 5 day weather forecast.";
 
   let pubio =
-    "pubIO is a mobile app built in React Native that provides users with a fun, social experience by marketing curated bar & brewery crawls to the user with special drink discounts.";
+    "A mobile app that provides users with a fun, social experience by marketing curated brewery crawls with special drink discounts.";
 
   let autoban =
-    "autoban is a an app that allows users to create kanban boards; with access to create teams.";
+    "Project mangaement applications that allows users to create kanban boards; with access to create teams.";
   const projectContainer = {
     marginBottom: "65px",
   };
@@ -49,6 +51,15 @@ const Portfolio = () => {
         <Title name="Projects" />
         <hr style={{ color: "black", width: "200px" }} />
         <Row style={projectContainer}>
+          <Col style={colStyling}>
+            <PortfolioProjects
+              appUrl="https://pritchard-electric.vercel.app"
+              appName="Pritchard Electric"
+              appDetails={pe}
+              appImage={PritchardElectric}
+              gitUrl="https://github.com/andrewvenson/pritchard-electric"
+            />
+          </Col>
           <Col style={colStyling}>
             <PortfolioProjects
               appUrl="https://expo.io/@pubio/pubIO"
