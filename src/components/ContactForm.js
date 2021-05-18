@@ -15,9 +15,10 @@ const ContactForm = (props) => {
   });
 
   const [error, showError] = useState(false);
+  const [success, showSuccess] = useState(false);
   const [loader, showLoader] = useState(false);
 
-  initContact = {
+  const initContact = {
     email: "",
     phone: "",
     lastname: "",
@@ -46,7 +47,9 @@ const ContactForm = (props) => {
         .then((response) => {
           showLoader(false);
           showError(false);
+          showSuccess(true);
           setContact(initContact);
+          setTimeout(showSuccess(false), 3000);
         });
     } else {
       showError(true);
@@ -127,6 +130,21 @@ const ContactForm = (props) => {
             <Button variant="dark" onClick={() => sendContactEmail()}>
               {props.active ? "Collaborate" : "Build"}
             </Button>
+          </div>
+        )}
+        {success && (
+          <div
+            style={{
+              backgroundColor: "#754C78",
+              padding: "20px",
+              marginTop: "10px",
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <p style={{ color: "white" }}>
+              Thank you! I will get in contact with you shortly.
+            </p>
           </div>
         )}
       </Form>
