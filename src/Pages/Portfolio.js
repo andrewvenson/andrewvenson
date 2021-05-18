@@ -37,7 +37,7 @@ const Portfolio = () => {
     "A mobile app that provides users with a fun, social experience by marketing curated brewery crawls with special drink discounts.";
 
   let autoban =
-    "Project mangaement applications that allows users to create kanban boards; with access to create teams.";
+    "Autoban is a project management tool that allows users to create kanban boards; With access to create teams.";
   const projectContainer = {
     marginBottom: "65px",
   };
