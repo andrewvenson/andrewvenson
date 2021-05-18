@@ -21,7 +21,8 @@ const Portfolio = () => {
   let pycdv =
     "PyCDV is a website that compiles statistics, facts, and information about the COVID-19 pandemic.";
 
-  let securepwgenerator = "Create secure passwords with SecurePWGenerator.";
+  let securepwgenerator =
+    "Generates secure passwords based on your specified criteria.";
 
   let codequiz =
     "Test your knowledge of Javascript with this multiple choice style quiz before the timer runs out.";
@@ -80,15 +81,6 @@ const Portfolio = () => {
           </Col>
           <Col style={colStyling}>
             <PortfolioProjects
-              appUrl="https://weatherrecast.herokuapp.com/"
-              appName="Weatherrecast"
-              appDetails={weatherrecast}
-              appImage={WeatherRecast}
-              gitUrl="https://github.com/andrewvenson/weathercast"
-            />
-          </Col>
-          <Col style={colStyling}>
-            <PortfolioProjects
               appUrl="https://dayplannerplus.herokuapp.com"
               appName="Dayplanner+"
               appDetails={dayplannerplus}
@@ -123,6 +115,15 @@ const Portfolio = () => {
               gitUrl="https://github.com/andrewvenson/codequiz"
             />
           </Col>
+          {/* <Col style={colStyling}>
+            <PortfolioProjects
+              appUrl="https://weatherrecast.herokuapp.com/"
+              appName="Weatherrecast"
+              appDetails={weatherrecast}
+              appImage={WeatherRecast}
+              gitUrl="https://github.com/andrewvenson/weathercast"
+            />
+          </Col> */}
         </Row>
       </Container>
     </div>

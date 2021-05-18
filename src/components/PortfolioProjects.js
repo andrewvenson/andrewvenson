@@ -68,15 +68,19 @@ const PortfolioProjects = (props) => {
           position: "absolute",
           bottom: "5px",
           backgroundColor: "#343A40",
-          padding: "5px",
+          padding: "3px",
+          fontSize: "14px",
+          fontWeight: "bold",
           borderRadius: "10px",
           textDecoration: "none",
           color: "rgb(168, 145, 168)",
+          display: "flex",
+          justifyContent: "center",
           width: "94%",
           boxShadow: "2px 4px 6px lightgray",
         }}
       >
-        Like this app? Contact me for more information
+        <span>Contact me for more info</span>
       </Link>
     </section>
   );
