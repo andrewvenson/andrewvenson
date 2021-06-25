@@ -19,25 +19,25 @@ const Portfolio = () => {
   let pe = "Pritchard Electric company website. Frontity - React.js";
 
   let pycdv =
-    "PyCDV is a website that compiles statistics, facts, and information about the COVID-19 pandemic. Temporarily being moved to new cloud provider. Flask - Python - JS - CSS";
+    "Website that compiles statistics, and facts about the COVID-19. Flask - Python - JS - CSS";
 
   let securepwgenerator =
     "Generates secure passwords based on your specified criteria. React.js";
 
   let codequiz =
-    "Test your knowledge of Javascript with this multiple choice style quiz before the timer runs out. React.js - Firebase";
+    "Timed Javascript multiple choice style quiz. React.js - Firebase";
 
   let dayplannerplus =
-    "A calendar application to add, edit, and delete events for the day. React.js - Firebase";
+    "Calendar app. React.js - Firebase";
 
   let weatherrecast =
     "Search for any city and display current and 5 day weather forecast. React.js - Firebase";
 
   let pubio =
-    "A mobile app that provides users with a fun, social experience by marketing curated brewery crawls with special drink discounts. React Native - Firebase - Expo";
+    "App that markets brewery crawls with drink discounts. React Native - Firebase - Expo";
 
   let autoban =
-    "Autoban is a project management tool that allows users to create kanban boards; With access to create teams. React.js - Node - Firebase";
+    "Project management tool that allows users & teams to create kanban boards. React.js - Node - Firebase - MySql";
 
   const projectContainer = {
     marginBottom: "65px",
