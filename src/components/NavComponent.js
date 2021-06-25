@@ -40,16 +40,6 @@ const NavComponent = () => {
                 <NavLinks name="About" classN="about" linkey="/about" />
                 <NavLinks name="Contact" classN="contact" linkey="/contact" />
               </Nav>
-              <Form className="emailForm" inline>
-                <FormControl
-                  type="text"
-                  placeholder="Email"
-                  className="mr-sm-2"
-                />
-                <Button className="emailSend" variant="outline-success">
-                  Send
-                </Button>
-              </Form>
             </Navbar.Collapse>
           </Container>
         </Navbar>
