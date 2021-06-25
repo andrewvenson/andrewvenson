@@ -16,28 +16,29 @@ import SecurePw from "../images/pwgenerated.PNG";
 
 const Portfolio = () => {
   // projecttext
-  let pe = "Pritchard Electric company website.";
+  let pe = "Pritchard Electric company website. Frontity - React.js";
 
   let pycdv =
-    "PyCDV is a website that compiles statistics, facts, and information about the COVID-19 pandemic.";
+    "PyCDV is a website that compiles statistics, facts, and information about the COVID-19 pandemic. Temporarily being moved to new cloud provider. Flask - Python - JS - CSS";
 
   let securepwgenerator =
-    "Generates secure passwords based on your specified criteria.";
+    "Generates secure passwords based on your specified criteria. React.js";
 
   let codequiz =
-    "Test your knowledge of Javascript with this multiple choice style quiz before the timer runs out.";
+    "Test your knowledge of Javascript with this multiple choice style quiz before the timer runs out. React.js - Firebase";
 
   let dayplannerplus =
-    "A calendar application to add, edit, and delete events for the day.";
+    "A calendar application to add, edit, and delete events for the day. React.js - Firebase";
 
   let weatherrecast =
-    "Search for any city and display current and 5 day weather forecast.";
+    "Search for any city and display current and 5 day weather forecast. React.js - Firebase";
 
   let pubio =
-    "A mobile app that provides users with a fun, social experience by marketing curated brewery crawls with special drink discounts.";
+    "A mobile app that provides users with a fun, social experience by marketing curated brewery crawls with special drink discounts. React Native - Firebase - Expo";
 
   let autoban =
-    "Autoban is a project management tool that allows users to create kanban boards; With access to create teams.";
+    "Autoban is a project management tool that allows users to create kanban boards; With access to create teams. React.js - Node - Firebase";
+
   const projectContainer = {
     marginBottom: "65px",
   };
@@ -54,7 +55,7 @@ const Portfolio = () => {
         <Row style={projectContainer}>
           <Col style={colStyling}>
             <PortfolioProjects
-              appUrl="https://pritchard-electric.vercel.app"
+              appUrl="https://dev.pritchardelectric.net"
               appName="Pritchard Electric"
               appDetails={pe}
               appImage={PritchardElectric}
@@ -115,15 +116,6 @@ const Portfolio = () => {
               gitUrl="https://github.com/andrewvenson/codequiz"
             />
           </Col>
-          {/* <Col style={colStyling}>
-            <PortfolioProjects
-              appUrl="https://weatherrecast.herokuapp.com/"
-              appName="Weatherrecast"
-              appDetails={weatherrecast}
-              appImage={WeatherRecast}
-              gitUrl="https://github.com/andrewvenson/weathercast"
-            />
-          </Col> */}
         </Row>
       </Container>
     </div>
