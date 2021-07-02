@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 import ResumeImg from "../images/resume.PNG";
-import ResumePdf from "../pdf/andrewvenson_resume.pdf";
+import ResumePdf from "../pdf/AndrewVensonResume.pdf";
 
 const Resume = () => {
   const [lgShow, setLgShow] = useState(false);
