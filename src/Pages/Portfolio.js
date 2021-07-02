@@ -55,7 +55,7 @@ const Portfolio = () => {
         <Row style={projectContainer}>
           <Col style={colStyling}>
             <PortfolioProjects
-              appUrl="https://dev.pritchardelectric.net"
+              appUrl="https://pritchardelectric.net"
               appName="Pritchard Electric"
               appDetails={pe}
               appImage={PritchardElectric}
