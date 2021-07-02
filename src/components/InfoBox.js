@@ -4,7 +4,7 @@ import profilePic from "../images/profilePic.png";
 import homeRun from "../images/home-run.png";
 import RightArrow from "../images/right-arrow.png";
 import LeftArrow from "../images/left-arrow.png";
-import Resume from "../images/resume.PNG";
+import Resume from "../images/resume.png";
 
 const InfoBox = () => {
   const direction = {

@@ -1,7 +1,7 @@
 // Resume component
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
-import ResumeImg from "../images/resume.PNG";
+import ResumeImg from "../images/resume.png";
 import ResumePdf from "../pdf/AndrewVensonResume.pdf";
 
 const Resume = () => {
