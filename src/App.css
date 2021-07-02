@@ -5,6 +5,7 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
   height: 100vh;
   position: relative;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .home {
@@ -48,10 +49,6 @@ body {
   font-weight: bold;
   color: rgb(121, 100, 121) !important;
   padding: 5px;
-}
-
-* {
-  font-family: calibri;
 }
 
 .myName:hover {
